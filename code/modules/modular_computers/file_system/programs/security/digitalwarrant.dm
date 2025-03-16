@@ -84,7 +84,7 @@ LEGACY_RECORD_STRUCTURE(all_warrants, warrant)
 	if(!istype(user))
 		return
 	var/obj/item/card/id/I = user.GetIdCard()
-	if(!istype(I) || !I.registered_name || !(access_castelnau_security in I.access)) //bos, edit this later
+	if(!istype(I) || !I.registered_name || !(access_security in I.access)) //bos, edit this later
 		to_chat(user, "Authentication error: Unable to locate ID with apropriate access to allow this operation.")
 		return
 
