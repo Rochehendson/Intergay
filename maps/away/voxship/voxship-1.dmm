@@ -1,0 +1,14912 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"ab" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	frequency = 1443;
+	icon_state = "map_injector";
+	id = "air_in";
+	injecting = 1;
+	use_power = 1;
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/nitrogen,
+/area/voxship/engineering)
+"af" = (
+/obj/machinery/power/smes/buildable/preset/voxship/ship,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"an" = (
+/obj/item/stool/padded,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "Voxmissdoor";
+	name = "missile doors control";
+	pixel_y = -25
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9;
+	pixel_y = 0
+	},
+/obj/effect/submap_landmark/spawnpoint/voxship_crew,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"aq" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/computer/ship/navigation{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"ay" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 11
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"aC" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/item/clothing/head/welding,
+/obj/item/clothing/head/welding,
+/obj/item/clothing/head/welding,
+/obj/item/clothing/head/welding,
+/obj/random/ammo,
+/obj/random/ammo,
+/obj/random/ammo,
+/obj/item/clothing/glasses/welding/superior,
+/obj/item/clothing/glasses/welding/superior,
+/obj/item/clothing/glasses/welding/superior,
+/obj/random/junk,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"aN" = (
+/turf/simulated/floor/reinforced/vox,
+/area/space)
+"aR" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/obj/random/powercell,
+/obj/random/powercell,
+/obj/random/powercell,
+/obj/random/powercell,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"aW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/conveyor/ammobelt{
+	dir = 8;
+	id = "ammobeltvox1"
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/ship_munition/disperser_charge/fire,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"bb" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1505;
+	id_tag = "vox_shuttle_inner";
+	locked = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"bq" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	tag = "icon-railing0 (EAST)"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"bt" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/deliveryChute{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"bO" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	name = "gasrooms";
+	id_tag = "gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"bQ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"bS" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"bU" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/buildable/preset/voxship/engine,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"cf" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"cp" = (
+/obj/structure/table/rack,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/item/rig/vox,
+/obj/item/rig/vox,
+/obj/item/rig/vox,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"cq" = (
+/obj/structure/table/reinforced,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	pixel_y = 20;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/random/toy,
+/obj/random/toy,
+/obj/random/toy,
+/obj/random/toy,
+/obj/random/toy,
+/obj/random/toy,
+/obj/random/toy,
+/obj/random/toy,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/misslie)
+"cs" = (
+/obj/structure/table/rack,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/item/clothing/suit/space/vox/stealth,
+/obj/item/clothing/suit/space/vox/stealth,
+/obj/item/clothing/suit/space/vox/stealth,
+/obj/item/clothing/suit/space/vox/stealth,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/head/helmet/space/vox/stealth,
+/obj/item/clothing/head/helmet/space/vox/stealth,
+/obj/item/clothing/head/helmet/space/vox/stealth,
+/obj/item/clothing/head/helmet/space/vox/stealth,
+/obj/random/trash,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"ct" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"cx" = (
+/obj/structure/railing/mapped{
+	dir = 4;
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"de" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/wall/ocp_wall,
+/area/voxship/engineering)
+"df" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/structure/ship_munition/disperser_charge/explosive,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"dk" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"dq" = (
+/obj/machinery/mass_driver{
+	id_tag = "voxmissile2"
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"dx" = (
+/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
+	internal_pressure_bound = 35000;
+	internal_pressure_bound_default = 35000;
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"dD" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"dN" = (
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"dQ" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"dT" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 9
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	name = "gasrooms";
+	id_tag = "gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"dU" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/sleeper/vox{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"dX" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/largecrate,
+/obj/item/gun/energy/revolver/secure,
+/obj/item/gun/energy/revolver/secure,
+/obj/item/gun/energy/revolver/secure,
+/obj/item/gun/energy/revolver/secure,
+/obj/item/gun/energy/revolver/secure,
+/obj/item/gun/energy/revolver/secure,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"ec" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/obj/machinery/button/blast_door{
+	pixel_x = -24;
+	id_tag = "gasroom";
+	name = "Gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"el" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"em" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/submap_landmark/spawnpoint/voxship_crew,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"eo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 9;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"et" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/blue,
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"eu" = (
+/obj/machinery/pointdefense{
+	initial_id_tag = "vox_pd"
+	},
+/obj/machinery/power/terminal,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/armory)
+"eB" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"eH" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"eR" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/button/mass_driver{
+	id_tag = "voxmissile1";
+	name = "missile launcher 1 LAUNCH";
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/machinery/button/mass_driver{
+	id_tag = "voxmissile2";
+	name = "missile launcher 2 LAUNCH";
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/conveyor_switch/ammobelt{
+	id = "voxmiss";
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"eW" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 9;
+	icon_state = "intact"
+	},
+/obj/machinery/power/apc{
+	cell_type = /obj/item/cell/hyper;
+	dir = 4;
+	pixel_x = 25;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"eX" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 8
+	},
+/obj/structure/sign/warning/compressed_gas{
+	dir = 1;
+	icon_state = "hikpa";
+	pixel_y = -32
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"fc" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4;
+	frequency = 1505;
+	id_tag = "vox_shuttle_pump"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	dir = 8;
+	frequency = 1505;
+	id_tag = "vox_shuttle";
+	pixel_x = 24;
+	req_access = list("ACCESS_VOXSHIP");
+	tag_exterior_sensor = "vox_shuttle_sensor_external"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"fd" = (
+/obj/effect/wallframe_spawn/alien,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"fk" = (
+/obj/machinery/button/blast_door{
+	id_tag = "VoxCombVent";
+	name = "Combustion Chamber Vent";
+	pixel_y = 30
+	},
+/obj/machinery/button/ignition{
+	id_tag = "Voxignition";
+	pixel_y = 20
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/item/rpd,
+/obj/item/rpd,
+/obj/item/rcd,
+/obj/item/rcd,
+/obj/item/rcd_ammo/large,
+/obj/item/rcd_ammo/large,
+/obj/item/rcd_ammo/large,
+/obj/item/rcd_ammo,
+/obj/item/rcd_ammo,
+/obj/item/rcd_ammo,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"ft" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 5
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"fF" = (
+/obj/item/stock_parts/circuitboard/solar_control,
+/obj/item/stock_parts/circuitboard/protolathe,
+/obj/item/stock_parts/circuitboard/robotics,
+/obj/item/stock_parts/circuitboard/sensors,
+/obj/structure/closet/crate,
+/obj/item/stock_parts/circuitboard/pipedispensor,
+/obj/item/stock_parts/circuitboard/pipedispensor/disposal,
+/obj/item/stock_parts/circuitboard/pacman/mrs,
+/obj/item/stock_parts/circuitboard/pacman/super,
+/obj/item/stock_parts/circuitboard/pacman,
+/obj/item/stock_parts/circuitboard/helm,
+/obj/item/stock_parts/circuitboard/bodyscanner,
+/obj/item/stock_parts/circuitboard/biogenerator,
+/obj/item/stock_parts/circuitboard/smes,
+/obj/item/stock_parts/smes_coil/super_io,
+/obj/item/stock_parts/smes_coil/super_capacity,
+/obj/item/stock_parts/smes_coil,
+/obj/item/stock_parts/circuitboard/autolathe,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"fI" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"fQ" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"fT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/misslie)
+"fW" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/effect/overmap/visitable/ship/voxship,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"gb" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/bed/chair/shuttle/black,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"gc" = (
+/obj/structure/ship_munition/disperser_charge/mining,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"gg" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/computer/mining,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"gn" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"go" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 8
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/dock)
+"gA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/access_button{
+	command = "cycle_interior";
+	frequency = 1485;
+	master_tag = "vox_down_airlock";
+	name = "interior access button";
+	pixel_x = -24;
+	pixel_y = 24;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"gH" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"gJ" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/obj/structure/ship_munition/disperser_charge/emp,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"gQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"gY" = (
+/obj/machinery/computer/ship/sensors{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"ha" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"hw" = (
+/obj/structure/bed/chair/shuttle/black,
+/obj/machinery/alarm/vox{
+	pixel_y = 15;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"hC" = (
+/obj/structure/closet/crate/munitions/payload/emp,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"hH" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/black,
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"hQ" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/simulated/floor/reinforced/nitrogen,
+/area/voxship/engineering)
+"ii" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"iv" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"ix" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"iA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"iB" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"iK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/machinery/sparker{
+	id_tag = "Voxignition";
+	pixel_x = -20
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"iP" = (
+/obj/structure/bed/chair/shuttle/black,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"iQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"iW" = (
+/obj/machinery/mass_driver{
+	id_tag = "voxmissile1"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"iZ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"jd" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"jk" = (
+/obj/structure/railing/mapped,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"jo" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"jt" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"jy" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"jA" = (
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/reinforced/vox,
+/area/space)
+"jE" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/alarm/vox{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/misslie)
+"jH" = (
+/obj/structure/stairs/east,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"jZ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"kj" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"kl" = (
+/obj/effect/catwalk_plated,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/brigdoor{
+	autoset_access = 0;
+	dir = 8;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"ku" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1485;
+	master_tag = "vox_down_airlock";
+	name = "exterior access button";
+	pixel_x = 24;
+	pixel_y = 24;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/space,
+/area/space)
+"kO" = (
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"kS" = (
+/obj/structure/disposaloutlet{
+	dir = 8
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"kU" = (
+/obj/machinery/door/blast/regular{
+	id_tag = "Voxmissdoor"
+	},
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"kV" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"lb" = (
+/obj/machinery/pointdefense{
+	initial_id_tag = "vox_pd"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/engineering)
+"lc" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"lg" = (
+/obj/structure/closet/crate/munitions/thruster/planet,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"ll" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"ln" = (
+/obj/machinery/ion_engine{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/armory)
+"ls" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1505;
+	id_tag = "vox_shuttle_outer"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/shuttle_landmark/vox_ship/vox_shuttle,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"lw" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"md" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"mf" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	pixel_y = 20;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"mo" = (
+/obj/machinery/pointdefense{
+	initial_id_tag = "vox_pd"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"mF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/misslie)
+"mH" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"mM" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/armory)
+"mS" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"mW" = (
+/turf/simulated/wall/ocp_wall,
+/area/space)
+"nb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"ni" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"ns" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"nu" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/random/ammo,
+/obj/random/ammo,
+/obj/random/ammo,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"nw" = (
+/obj/machinery/power/breakerbox/activated,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"nB" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"nT" = (
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/device/geiger,
+/obj/item/device/geiger,
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/welder_tank/experimental,
+/obj/item/welder_tank/experimental,
+/obj/item/welder_tank/experimental,
+/obj/item/welder_tank/experimental,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"nV" = (
+/obj/structure/closet/crate/munitions/thruster/hunter,
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"nW" = (
+/obj/machinery/pointdefense_control{
+	initial_id_tag = "vox_pd";
+	name = "Point Defense Controller"
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/disposalpipe/segment/bent{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"nZ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"of" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 5
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"oq" = (
+/obj/machinery/portable_atmospherics/canister/sleeping_agent,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/dock)
+"oz" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/welding/superior,
+/obj/item/clothing/glasses/welding/superior,
+/obj/item/clothing/glasses/welding/superior,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"oA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/power/smes/batteryrack,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"oI" = (
+/obj/structure/table/rack,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/random/energy,
+/obj/random/energy,
+/obj/random/energy,
+/obj/random/energy,
+/obj/random/energy,
+/obj/random/energy,
+/obj/random/energy,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"oJ" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"oU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"oW" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	pixel_y = 20;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"oX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"pg" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/machinery/vending/tool{
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"pl" = (
+/obj/machinery/atmospherics/pipe/manifold4w/visible/black,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"po" = (
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"pC" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/item/gun/projectile/automatic/l6_saw/sec,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"pL" = (
+/obj/machinery/conveyor/ammobelt{
+	dir = 5;
+	id = "ammobeltvox1"
+	},
+/obj/structure/disposalpipe/segment/bent,
+/obj/structure/window/phoronreinforced,
+/obj/structure/ship_munition/disperser_charge/fire,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"pN" = (
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	frequency = 1485;
+	id_tag = "vox_down_airlock";
+	name = "Vox Airlock Console";
+	pixel_y = 24;
+	req_access = list("ACCESS_VOXSHIP");
+	tag_airpump = "vox_down_pump";
+	tag_chamber_sensor = "vox_down_sensor";
+	tag_exterior_door = "vox_down_outer";
+	tag_interior_door = "vox_down_inner"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1485;
+	id_tag = "vox_down_pump"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/misslie)
+"pO" = (
+/obj/machinery/conveyor_switch/ammobelt{
+	id = "ammobeltvox1"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"pS" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"pW" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"qa" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"qe" = (
+/obj/machinery/disperser/middle{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"qq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"qw" = (
+/obj/machinery/atmospherics/omni/mixer,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"qA" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/submap_landmark/spawnpoint/voxship_crew/engineer,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"qI" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1505;
+	id_tag = "vox_shuttle_sensor";
+	pixel_x = -24
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1505;
+	id_tag = "vox_shuttle_pump_out_internal"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"qJ" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	pixel_x = -25;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"ra" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/hologram/holopad/longrange,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"rb" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1";
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/structure/largecrate,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"rg" = (
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1505;
+	master_tag = "vox_shuttle";
+	pixel_y = 10;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"rh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"rk" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel,
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"rt" = (
+/obj/machinery/computer/ship/helm{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"rv" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"rH" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"rS" = (
+/obj/structure/table/rack,
+/obj/item/gun/energy/sonic,
+/obj/item/gun/energy/sonic,
+/obj/item/gun/energy/sonic,
+/obj/item/gun/launcher/alien/spikethrower,
+/obj/item/gun/launcher/alien/spikethrower,
+/obj/item/gun/launcher/alien/spikethrower,
+/obj/item/gun/launcher/alien/slugsling,
+/obj/item/gun/launcher/alien/slugsling,
+/obj/item/gun/launcher/alien/slugsling,
+/obj/item/gun/energy/darkmatter,
+/obj/item/gun/energy/darkmatter,
+/obj/item/gun/energy/darkmatter,
+/obj/item/gun/energy/darkmatter,
+/obj/item/gun/energy/darkmatter,
+/obj/item/gun/energy/darkmatter,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"sg" = (
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/armory)
+"sG" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/energy/k342/sniper,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"sK" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"sL" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"sM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 13
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"sS" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/computer/mining,
+/obj/structure/table/reinforced,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"sU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"sW" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"sX" = (
+/obj/machinery/computer/ship/navigation{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"tc" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/armory)
+"tq" = (
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"tz" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/ofd)
+"tN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/ship_munition/disperser_charge/explosive,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"tV" = (
+/obj/machinery/door/blast/regular{
+	id_tag = "VoxCombVent";
+	name = "combustion chamber vent"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"us" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	frequency = 1500;
+	id_tag = "lower_fore_vox_pump"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/engineering)
+"uK" = (
+/turf/simulated/floor/plating/vox,
+/area/voxship/misslie)
+"uP" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"va" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/buildable/preset/voxship/engine,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 13
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"vc" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"vg" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/conveyor/ammobelt{
+	id = "voxmiss"
+	},
+/obj/structure/plasticflaps/airtight,
+/obj/structure/missile{
+	dir = 2
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"vm" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/ocp_wall,
+/area/voxship/dock)
+"vx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"vz" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light,
+/obj/structure/table/rack,
+/obj/random/tank,
+/obj/random/tank,
+/obj/random/tank,
+/obj/random/tank,
+/obj/random/tank,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"vU" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"vV" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/largecrate,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"vW" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/power/shield_generator/new_icon,
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"vX" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"wk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"wl" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/structure/largecrate,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/obj/item/clothing/under/carp,
+/obj/item/clothing/under/carp,
+/obj/item/reagent_containers/food/snacks/cubancarp,
+/obj/item/reagent_containers/food/snacks/fish/space_carp,
+/obj/item/reagent_containers/food/snacks/fish/space_carp,
+/obj/item/reagent_containers/food/snacks/sushi,
+/obj/item/reagent_containers/food/snacks/sushi,
+/obj/item/reagent_containers/food/snacks/sushi,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"wm" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1505;
+	id_tag = "vox_shuttle_outer"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"wn" = (
+/obj/structure/cable{
+	d1 = 16;
+	d2 = 0;
+	icon_state = "16-0"
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"wu" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"wA" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining_internal"
+	},
+/obj/machinery/mineral/unloading_machine{
+	input_turf = 2;
+	output_turf = 1
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"wB" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating/vox,
+/area/voxship/dock)
+"wY" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"xa" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"xl" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	icon_state = "railing0-1"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"xm" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/structure/table/rack,
+/obj/item/tank/nitrogen,
+/obj/item/tank/nitrogen,
+/obj/item/tank/nitrogen,
+/obj/item/tank/nitrogen,
+/obj/item/tank/nitrogen,
+/obj/item/tank/nitrogen,
+/obj/random/tank,
+/obj/random/tank,
+/obj/random/tank,
+/obj/random/tank,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"xt" = (
+/obj/effect/paint/sun,
+/turf/simulated/wall/ocp_wall,
+/area/voxship/engineering)
+"xv" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/structure/largecrate,
+/obj/item/toy/prize,
+/obj/item/toy/prize/deathripley,
+/obj/item/toy/prize/durand,
+/obj/item/toy/prize/fireripley,
+/obj/item/toy/prize/gygax,
+/obj/item/toy/prize/honk,
+/obj/item/toy/prize/marauder,
+/obj/item/toy/prize/mauler,
+/obj/item/toy/prize/odysseus,
+/obj/item/toy/prize/phazon,
+/obj/item/toy/prize/powerloader,
+/obj/item/toy/prize/seraph,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"xC" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"xN" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	frequency = 1443;
+	icon_state = "map_injector";
+	id = "air_in";
+	injecting = 1;
+	use_power = 1;
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"xT" = (
+/obj/structure/ship_munition/disperser_charge/mining,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8;
+	level = 2
+	},
+/obj/machinery/light,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"yc" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/wall/ocp_wall,
+/area/voxship/engineering)
+"yd" = (
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/misslie)
+"ye" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"yk" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"yl" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"yu" = (
+/obj/structure/ship_munition/disperser_charge/mining,
+/obj/machinery/light,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"yC" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/loading,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"yF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/bed/chair/shuttle/black,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"yQ" = (
+/turf/simulated/wall/ocp_wall,
+/area/voxship/dock)
+"ze" = (
+/obj/machinery/pointdefense{
+	initial_id_tag = "vox_pd"
+	},
+/obj/machinery/power/terminal,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"zg" = (
+/obj/machinery/alarm/vox{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"zr" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"zw" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"zx" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/missile{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"zE" = (
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "vox_ofd";
+	name = "Artillery Blast Door"
+	},
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/reinforced/airless,
+/area/voxship/ofd)
+"zS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"zW" = (
+/obj/structure/fuel_port,
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"Ab" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Ac" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Af" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"Am" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Ao" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Ax" = (
+/obj/structure/largecrate,
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"AG" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining_internal"
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"AN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/armory)
+"AP" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 5
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"AX" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Be" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 8;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/submap_landmark/spawnpoint/voxship_crew/engineer,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Bl" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining_internal"
+	},
+/obj/machinery/mineral/stacking_machine{
+	input_turf = 2;
+	output_turf = 1
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Bo" = (
+/obj/structure/closet/crate/munitions/payload/antimissile,
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Br" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Bx" = (
+/obj/machinery/computer/shuttle_control/explore/vox_shuttle{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"BB" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1";
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	pixel_y = 20;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/structure/largecrate,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"BD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"BH" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 6
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"BN" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 8
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/armory)
+"BY" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/alarm/vox{
+	dir = 4;
+	pixel_x = -24;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/light,
+/obj/structure/table/rack,
+/obj/item/toy/ringbell,
+/obj/item/tank/air,
+/obj/item/tank/air,
+/obj/item/tank/air,
+/obj/item/tank/air,
+/obj/item/tank/anesthetic,
+/obj/item/tank/anesthetic,
+/obj/item/tank/anesthetic,
+/obj/item/tank/anesthetic,
+/obj/random/tank,
+/obj/random/tank,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"Ca" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"Cg" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/wall/ocp_wall,
+/area/voxship/engineering)
+"Cu" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/machinery/light,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"CE" = (
+/obj/structure/closet/crate/munitions/payload/explosive,
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"CM" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"CN" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/omni/filter,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"CO" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/armory)
+"CR" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
+	dir = 4;
+	start_pressure = 8013.25
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"CT" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/external{
+	frequency = 1485;
+	icon_state = "closed";
+	id_tag = "vox_down_outer";
+	locked = 1;
+	name = "Vox External Access"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/misslie)
+"CY" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Db" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Dg" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Di" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/zpipe/up/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
+	dir = 1
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Dj" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Dl" = (
+/obj/machinery/alarm/vox{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/dock)
+"Do" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Dy" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"DE" = (
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/ofd)
+"DH" = (
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"DI" = (
+/obj/machinery/shield_diffuser,
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"DN" = (
+/obj/machinery/conveyor/ammobelt{
+	id = "voxmiss"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"DS" = (
+/obj/machinery/computer/ship/engines{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"DU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"DV" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/b_green/half,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"DY" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Eh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"Eu" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/submap_landmark/spawnpoint/voxship_crew,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"Ew" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"EK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/ship_munition/disperser_charge/emp,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"EU" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"EV" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor/ammobelt{
+	dir = 1;
+	id = "ammobelt0";
+	name = "Loading Belt 1"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/ship_munition/disperser_charge/fire,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"EX" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"EY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Fb" = (
+/obj/machinery/ion_engine{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/engineering)
+"Fc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/conveyor/ammobelt{
+	dir = 8;
+	id = "ammobeltvox1"
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/ship_munition/disperser_charge/fire,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Fg" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/largecrate,
+/obj/item/storage/firstaid/combat,
+/obj/item/storage/firstaid/combat,
+/obj/item/storage/firstaid/combat,
+/obj/item/storage/firstaid/combat,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Ft" = (
+/turf/simulated/wall/ocp_wall,
+/area/voxship/misslie)
+"FD" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"FF" = (
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"FH" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"Ga" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Gj" = (
+/obj/effect/catwalk_plated,
+/obj/machinery/power/ascent_reactor/vox,
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Gm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/obj/effect/overmap/visitable/ship/landable/vox,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Gp" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 11
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Gr" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"Gt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1485;
+	id_tag = "vox_down_sensor";
+	pixel_x = -21;
+	pixel_y = -27
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1485;
+	id_tag = "vox_down_pump"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/misslie)
+"GD" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/external{
+	frequency = 1485;
+	icon_state = "closed";
+	id_tag = "vox_down_inner";
+	name = "Vox Internal Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"GG" = (
+/obj/structure/table/rack,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/light,
+/obj/item/clothing/suit/space/vox/pressure,
+/obj/item/clothing/suit/space/vox/pressure,
+/obj/item/clothing/suit/space/vox/pressure,
+/obj/item/clothing/suit/space/vox/pressure,
+/obj/item/clothing/suit/space/vox/pressure,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/head/helmet/space/vox/pressure,
+/obj/item/clothing/head/helmet/space/vox/pressure,
+/obj/item/clothing/head/helmet/space/vox/pressure,
+/obj/item/clothing/head/helmet/space/vox/pressure,
+/obj/item/device/binoculars,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"GI" = (
+/turf/simulated/wall/ocp_wall,
+/area/voxship/ofd)
+"GK" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"GQ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"GU" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Hb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 10
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"Hg" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/buildable/preset/voxship/engine,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Hm" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/suit/space/vox/raider,
+/obj/item/clothing/suit/space/vox/raider,
+/obj/item/clothing/suit/space/vox/raider,
+/obj/item/clothing/head/helmet/space/vox/raider,
+/obj/item/clothing/head/helmet/space/vox/raider,
+/obj/item/clothing/head/helmet/space/vox/raider,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/item/clothing/suit/space/vox/raider,
+/obj/item/clothing/suit/space/vox/raider,
+/obj/item/clothing/head/helmet/space/vox/raider,
+/obj/item/clothing/head/helmet/space/vox/raider,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Hu" = (
+/obj/structure/bed/chair/shuttle/black,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Hx" = (
+/obj/structure/railing/mapped,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1;
+	frequency = 1331
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"Hz" = (
+/obj/machinery/pointdefense{
+	initial_id_tag = "vox_pd"
+	},
+/obj/machinery/power/terminal,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"HA" = (
+/obj/effect/shuttle_landmark/vox_ship/nav_south{
+	name = "South of Abnormal Ship"
+	},
+/turf/space,
+/area/space)
+"HI" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"HV" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Ia" = (
+/turf/simulated/wall/ocp_wall,
+/area/voxship/engineering)
+"Ib" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/dock)
+"Ig" = (
+/obj/structure/closet/crate/munitions/payload/diffuser,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"Ii" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 13
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Ij" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/armory)
+"Ik" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/simulated/floor/plating/vox,
+/area/voxship/dock)
+"Im" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/table/rack,
+/obj/item/gun/projectile/dartgun/vox/raider,
+/obj/item/gun/projectile/dartgun/vox/raider,
+/obj/item/gun/projectile/dartgun/vox/raider,
+/obj/item/gun/projectile/dartgun/vox/raider,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"In" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Ir" = (
+/obj/machinery/portable_atmospherics/canister/sleeping_agent,
+/turf/simulated/floor/plating/vox,
+/area/voxship/dock)
+"Iw" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"IA" = (
+/obj/machinery/alarm/vox{
+	pixel_y = 15;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"ID" = (
+/turf/simulated/floor/reinforced/nitrogen,
+/area/voxship/engineering)
+"IE" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Je" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/conveyor/ammobelt{
+	dir = 8;
+	id = "ammobeltvox1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/ship_munition/disperser_charge/fire,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Ji" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"Jk" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/space,
+/area/voxship/engineering)
+"Jq" = (
+/obj/machinery/disperser/back{
+	dir = 8
+	},
+/obj/structure/ship_munition/disperser_charge/vox,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Jr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/armory)
+"Js" = (
+/turf/space,
+/area/space)
+"JC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/dock)
+"JM" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"JX" = (
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Kt" = (
+/obj/machinery/alarm/vox{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"Ku" = (
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 4;
+	name = "thruster fuel input"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Kx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Kz" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"KF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"KG" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/missile{
+	dir = 2
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/voxship/misslie)
+"KV" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"KX" = (
+/obj/machinery/computer/ship/sensors{
+	dir = 4
+	},
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	pixel_x = -25;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"La" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/reagent_dispensers/watertank,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Lc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 4
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"Lm" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"Ln" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Lp" = (
+/obj/machinery/shipsensors,
+/obj/machinery/airlock_sensor{
+	frequency = 1505;
+	id_tag = "vox_shuttle_sensor_external";
+	pixel_y = -16
+	},
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4;
+	frequency = 1505;
+	id_tag = "vox_shuttle_pump_out_external"
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Lu" = (
+/obj/machinery/computer/ship/missiles{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Lx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 10
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"LF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"LP" = (
+/obj/machinery/light,
+/obj/structure/table/rack,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"LQ" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"LT" = (
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Ma" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Mo" = (
+/obj/structure/ship_munition/disperser_charge/emp,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"My" = (
+/obj/structure/ship_munition/disperser_charge/vox,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Mz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"MA" = (
+/obj/structure/railing/mapped{
+	dir = 4;
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"MF" = (
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"ML" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"MP" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/vox/guard,
+/obj/item/clothing/suit/armor/vox/guard,
+/obj/item/clothing/suit/armor/vox/guard,
+/obj/item/clothing/suit/armor/vox/guard,
+/obj/item/clothing/suit/armor/vox_scrap,
+/obj/item/clothing/suit/armor/vox_scrap,
+/obj/item/clothing/suit/armor/vox_scrap,
+/obj/item/clothing/suit/armor/vox_scrap,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/device/binoculars,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"MQ" = (
+/obj/structure/cable{
+	d1 = 16;
+	d2 = 0;
+	icon_state = "16-0";
+	dir = 1
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"Nk" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/structure/ship_munition/disperser_charge/vox,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Nv" = (
+/obj/structure/closet/crate/munitions/equipment/autoarm,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Ny" = (
+/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/nitrogen,
+/area/voxship/engineering)
+"NF" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"NH" = (
+/turf/simulated/wall/ocp_wall,
+/area/voxship/armory)
+"NK" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"NL" = (
+/obj/effect/floor_decal/industrial/hatch/blue,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"NX" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Oc" = (
+/obj/machinery/recharge_station,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/red{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Od" = (
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"Oi" = (
+/obj/structure/lattice,
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/misslie)
+"Oq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 1;
+	name = "port input"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Ov" = (
+/obj/effect/shuttle_landmark/vox_ship/nav_northwest{
+	name = "Northwest of Abnormal Ship"
+	},
+/turf/space,
+/area/space)
+"Oy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 5
+	},
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"Oz" = (
+/obj/structure/table/rack,
+/obj/machinery/light,
+/obj/item/clothing/suit/space/vox/medic,
+/obj/item/clothing/suit/space/vox/medic,
+/obj/item/clothing/suit/space/vox/medic,
+/obj/item/clothing/suit/space/vox/medic,
+/obj/item/clothing/suit/space/vox/medic,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/head/helmet/space/vox/medic,
+/obj/item/clothing/head/helmet/space/vox/medic,
+/obj/item/clothing/head/helmet/space/vox/medic,
+/obj/item/clothing/head/helmet/space/vox/medic,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"OJ" = (
+/obj/machinery/conveyor/ammobelt{
+	id = "voxmiss"
+	},
+/obj/structure/plasticflaps/airtight,
+/obj/structure/missile{
+	dir = 2
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"OV" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"OY" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/black,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/item/gun/energy/plasmacutter,
+/obj/item/storage/ore,
+/obj/item/pickaxe/jackhammer,
+/obj/item/shovel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Pb" = (
+/obj/structure/table/rack,
+/obj/item/clothing/suit/space/vox/carapace,
+/obj/item/clothing/suit/space/vox/carapace,
+/obj/item/clothing/suit/space/vox/carapace,
+/obj/item/clothing/suit/space/vox/carapace,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/mask/gas/vox,
+/obj/item/clothing/head/helmet/space/vox/carapace,
+/obj/item/clothing/head/helmet/space/vox/carapace,
+/obj/item/clothing/head/helmet/space/vox/carapace,
+/obj/item/clothing/head/helmet/space/vox/carapace,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"Pe" = (
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/space)
+"Pf" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"PD" = (
+/obj/structure/table/rack,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/gloves/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/clothing/shoes/magboots/vox,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"PH" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"PJ" = (
+/obj/structure/grille,
+/turf/space,
+/area/voxship/engineering)
+"Qc" = (
+/obj/machinery/door/airlock/ascent{
+	autoset_access = 0;
+	color = "#6cda1b";
+	dir = 4;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"Qf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"Qi" = (
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"Qo" = (
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"Qp" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	name = "gasrooms";
+	id_tag = "gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Qs" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/item/pickaxe/hammer,
+/obj/item/pickaxe/hammer,
+/obj/item/pickaxe/hammer,
+/obj/item/pickaxe/hammer,
+/obj/item/pickaxe/jackhammer,
+/obj/item/pickaxe/jackhammer,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Rm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"Rn" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"Ro" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/ore_box,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Rw" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	name = "gasrooms";
+	id_tag = "gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Rx" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Rz" = (
+/obj/structure/stairs/north,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"RD" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/dock)
+"RT" = (
+/obj/effect/paint/sun,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 8
+	},
+/turf/simulated/wall/ocp_wall,
+/area/voxship/engineering)
+"Sh" = (
+/obj/structure/closet/crate/munitions/thruster,
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/misslie)
+"Sy" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"SF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"SI" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	name = "gasrooms";
+	id_tag = "gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"SM" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 5
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Tn" = (
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1505;
+	master_tag = "vox_shuttle";
+	pixel_y = 20;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/blue{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Tz" = (
+/obj/machinery/alarm/vox{
+	dir = 4;
+	pixel_x = -24;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"TA" = (
+/obj/structure/table/rack,
+/obj/random/projectile,
+/obj/random/projectile,
+/obj/random/projectile,
+/obj/random/projectile,
+/obj/random/projectile,
+/obj/random/projectile,
+/obj/random/trash,
+/obj/item/clothing/glasses/meson,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"TO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"TR" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"TT" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"Ug" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"Uk" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Ul" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/misslie)
+"Uz" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating/vox,
+/area/voxship/dock)
+"UD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
+/obj/structure/table/reinforced,
+/obj/item/clothing/suit/armor/vox/bombsuit,
+/obj/item/clothing/suit/armor/vox/bombsuit,
+/obj/item/clothing/suit/armor/vox/bombsuit,
+/obj/item/clothing/head/helmet/vox/jaw,
+/obj/item/clothing/head/helmet/vox/jaw,
+/obj/item/clothing/head/helmet/vox/jaw,
+/obj/item/clothing/under/vox/eng,
+/obj/item/clothing/under/vox/eng,
+/obj/item/clothing/under/vox/eng,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"UN" = (
+/obj/machinery/disperser/front{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"UQ" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"UT" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"UV" = (
+/obj/structure/ship_munition/disperser_charge/explosive,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"UX" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/blue{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"UY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/closet/crate/trashcart,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"UZ" = (
+/obj/structure/closet/crate/munitions/thruster/hunter,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/misslie)
+"Va" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"Vc" = (
+/obj/effect/catwalk_plated,
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"Ve" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"Vp" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"VE" = (
+/obj/machinery/computer/ship/disperser{
+	dir = 4
+	},
+/obj/machinery/button/blast_door{
+	dir = 1;
+	id_tag = "vox_ofd";
+	pixel_y = -20;
+	pixel_x = -23
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"VG" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/b_green/half{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/misslie)
+"VQ" = (
+/obj/structure/fireaxecabinet{
+	pixel_y = 32
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"Wd" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"Wp" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Wq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/ore_box,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"Ws" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/vending/engivend{
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/turf/simulated/floor/tiled/dark/monotile/vox,
+/area/voxship/engineering)
+"Wv" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"WM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 11
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"WQ" = (
+/obj/structure/ship_munition/disperser_charge/fire,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"Xa" = (
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/dock)
+"Xy" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/item/melee/energy/pick,
+/obj/item/melee/energy/pick,
+/obj/item/melee/energy/pick,
+/obj/item/melee/energy/pick,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"XC" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/turf/space,
+/area/space)
+"XD" = (
+/obj/structure/closet/crate/munitions/thruster/point,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"XS" = (
+/obj/machinery/alarm/vox{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22;
+	req_access = list("ACCESS_VOXSHIP")
+	},
+/obj/machinery/light,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+"XV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"XY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/port_gen/pacman/mrs,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Yf" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"Yv" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"YA" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/table/rack,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/suit_cooling_unit,
+/obj/item/device/suit_cooling_unit,
+/obj/item/device/suit_cooling_unit,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/obj/item/tank/jetpack/nitrogen,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"YI" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining_internal"
+	},
+/obj/machinery/mineral/processing_unit{
+	input_turf = 2;
+	output_turf = 1
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"YM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/book/manual/rust_engine,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/engineering)
+"YR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating/vox,
+/area/voxship/armory)
+"YV" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	icon_state = "railing0-1"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/dock)
+"YX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/portables_connector,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/dock)
+"YZ" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/missile{
+	dir = 2
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"Za" = (
+/obj/machinery/light,
+/obj/structure/closet/crate,
+/obj/item/stack/material/tritium/ten,
+/obj/item/stack/material/tritium/ten,
+/obj/item/stack/material/tritium/ten,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"Zh" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid{
+	initial_gas = list("nitrogen"=102.684)
+	},
+/area/voxship/misslie)
+"Zl" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/dock)
+"Zu" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	name = "gasrooms";
+	id_tag = "gasroom"
+	},
+/turf/simulated/floor/plating/vox,
+/area/voxship/engineering)
+"ZC" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/vox,
+/area/voxship/misslie)
+"ZE" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/wall/alienwall{
+	color = "#284840";
+	initial_gas = list("nitrogen"=103)
+	},
+/area/voxship/engineering)
+"ZG" = (
+/obj/effect/wallframe_spawn/alien,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/misslie)
+"ZJ" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 6;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/voxship/engineering)
+"ZN" = (
+/obj/structure/extinguisher_cabinet,
+/turf/simulated/wall/alienwall,
+/area/voxship/shuttle)
+"ZP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 6
+	},
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/shuttle)
+"ZY" = (
+/turf/simulated/floor/reinforced/vox,
+/area/voxship/ofd)
+
+(1,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Pe
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(2,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(3,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(4,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(5,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(6,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(7,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(8,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(9,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(10,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(11,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(12,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(13,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(14,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(15,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(16,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(17,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Ov
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(18,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(19,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(20,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(21,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(22,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(23,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(24,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(25,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(26,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(27,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(28,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Ft
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(29,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+Js
+Js
+Js
+yd
+Ft
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(30,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+Js
+Js
+Js
+yd
+Ft
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(31,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+Js
+Js
+Js
+Js
+yd
+Ft
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(32,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+jA
+aN
+aN
+Js
+yd
+Ft
+Js
+Js
+Js
+MF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(33,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+Js
+Js
+Js
+GI
+DE
+zE
+fd
+DE
+Js
+yd
+Ft
+Js
+Js
+Js
+MF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(34,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+Js
+Js
+Js
+DE
+DE
+UN
+fd
+DE
+Js
+yd
+Ft
+Ft
+Js
+Js
+MF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(35,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+Js
+Js
+Js
+DE
+bt
+qe
+fd
+DE
+DE
+Ul
+mF
+mF
+mo
+MF
+MF
+MF
+MF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(36,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+Js
+DE
+DE
+DE
+aW
+Jq
+VE
+KX
+DE
+hC
+Ig
+yd
+yd
+yd
+eH
+XC
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(37,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+DE
+DE
+gJ
+Dy
+Fc
+kS
+Be
+pO
+fd
+sU
+DN
+OJ
+iW
+kU
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(38,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+DE
+Mo
+EK
+DE
+Je
+oA
+fW
+ZY
+fd
+Qf
+DN
+vg
+dq
+kU
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(39,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+DE
+ZY
+HI
+EV
+pL
+nW
+xa
+zg
+DE
+iA
+iv
+Zh
+KG
+yd
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(40,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+WQ
+ZY
+XS
+DE
+fd
+fd
+Dg
+fd
+DE
+IA
+FH
+Ca
+zx
+yd
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(41,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+WQ
+HI
+vU
+DE
+cq
+HV
+ft
+jE
+yd
+mf
+mS
+Ca
+zx
+Oi
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(42,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Hz
+tz
+rv
+JM
+el
+aa
+UQ
+GU
+SM
+dQ
+uP
+Lm
+vX
+Gr
+YZ
+Oi
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(43,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+DE
+Nk
+UV
+xT
+DE
+Nv
+Sy
+AP
+nV
+yd
+gQ
+sX
+Lu
+eR
+yd
+eH
+DI
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(44,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+My
+UV
+gc
+Dy
+XD
+Yf
+AP
+CE
+ZG
+gA
+ZC
+an
+sG
+Oi
+XC
+XC
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(45,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+My
+tN
+gc
+Dy
+lg
+Sy
+of
+Bo
+yd
+GD
+fT
+yd
+yd
+Oi
+XC
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(46,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+Nk
+tN
+yu
+DE
+UZ
+VG
+DV
+Sh
+yd
+pN
+Gt
+uK
+CT
+ku
+XC
+eH
+eH
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(47,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+DE
+My
+tN
+gc
+DE
+Xa
+Qc
+sL
+Xa
+xt
+xt
+xt
+xt
+xt
+xt
+Jk
+Js
+Js
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(48,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+GI
+GI
+DE
+My
+df
+gc
+DE
+sW
+ML
+iZ
+Dl
+xt
+ZJ
+iK
+ZJ
+Va
+tV
+PJ
+Js
+Js
+Ia
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(49,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Qi
+YV
+Hx
+Qi
+xt
+Ug
+xN
+eo
+DU
+tV
+PJ
+Js
+Js
+Ia
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(50,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+Zl
+wB
+OV
+BY
+Xa
+jH
+xl
+jk
+jH
+xt
+bO
+SI
+Zu
+RT
+xt
+FF
+FF
+FF
+FF
+FF
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(51,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+Uz
+Ik
+Eu
+xm
+Xa
+BB
+SF
+ns
+rb
+xt
+aR
+qw
+wY
+eX
+FF
+hQ
+ID
+FF
+NF
+Qo
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(52,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+oq
+Ir
+cf
+vz
+Xa
+Xa
+Ji
+sL
+Xa
+FF
+fk
+yl
+oU
+WM
+FF
+ab
+Ny
+FF
+Qo
+dx
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(53,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+Xa
+Xa
+kV
+Xa
+Xa
+eB
+EY
+xC
+LP
+FF
+UD
+qA
+zS
+ay
+oJ
+Qp
+Qp
+oJ
+Rw
+dT
+FF
+FF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(54,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+yQ
+Xa
+YA
+LF
+Ac
+lw
+jd
+Wp
+zr
+fQ
+DY
+eW
+NX
+ni
+Gp
+gH
+CN
+jy
+ec
+Uk
+dk
+Rm
+us
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(55,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+ze
+vm
+RD
+Hm
+em
+Iw
+Rx
+GQ
+nB
+bQ
+Cu
+FF
+FF
+Mz
+Dj
+Kz
+mH
+Oq
+wu
+Rn
+KF
+nZ
+ZE
+lb
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(56,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+Xa
+Im
+Ew
+dD
+Lp
+po
+po
+po
+po
+po
+AX
+oX
+vW
+Vp
+wk
+wk
+Do
+jZ
+Di
+sM
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(57,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+yQ
+Xa
+YX
+Wv
+In
+rk
+Lx
+Oy
+oW
+rt
+Bx
+po
+Lc
+FF
+LT
+pW
+nT
+iQ
+zw
+bU
+Hg
+va
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(58,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+NL
+Ln
+xC
+rh
+wl
+po
+Oc
+UT
+Gm
+Yv
+DS
+hH
+FF
+Ve
+EU
+Ws
+YM
+iB
+IE
+Db
+Ii
+FF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(59,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+wA
+Wq
+xC
+rh
+xv
+po
+af
+gb
+ra
+iP
+gY
+ii
+FF
+pS
+NK
+pg
+zS
+jt
+gn
+kl
+md
+FF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(60,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+AG
+Wq
+xC
+rh
+Qs
+po
+nw
+yF
+kO
+kO
+aq
+ye
+FF
+VQ
+NK
+fF
+dN
+lc
+rH
+Gj
+Vc
+FF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(61,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+YI
+gg
+xC
+Ew
+Xy
+po
+CM
+po
+TO
+ZP
+dU
+po
+FF
+kj
+NK
+oz
+zS
+tq
+fI
+Ga
+ix
+FF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(62,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+AG
+UY
+Ma
+rh
+yC
+ls
+qI
+bb
+vc
+UX
+TR
+po
+FF
+GK
+NK
+aC
+zS
+DH
+FF
+FF
+FF
+FF
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(63,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+Bl
+sS
+yk
+Kx
+yC
+wm
+fc
+bb
+kO
+UX
+TR
+po
+FF
+Pf
+NK
+nu
+dN
+JX
+FF
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(64,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Xa
+NL
+EX
+CY
+Ab
+La
+rg
+Hb
+et
+Tn
+BD
+XY
+po
+FF
+Ax
+ha
+FF
+FF
+FF
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(65,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+sg
+sg
+tc
+sg
+AN
+ZN
+Hu
+kO
+bS
+kO
+Za
+po
+FF
+pC
+cx
+MA
+Tz
+dX
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(66,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+eu
+Ij
+MP
+qJ
+qa
+Oz
+AN
+po
+hw
+vc
+FD
+kO
+qq
+po
+FF
+MQ
+Rz
+dN
+LQ
+Fg
+FF
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(67,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+sg
+PD
+YR
+XV
+Pb
+AN
+zW
+Hu
+vc
+Ku
+kO
+CR
+po
+FF
+TT
+Ao
+bq
+sK
+vV
+FF
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(68,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+cp
+Eh
+nb
+Af
+cs
+AN
+po
+BH
+Ro
+pl
+Br
+OY
+po
+FF
+FF
+FF
+FF
+ct
+PH
+Wd
+Ia
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(69,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+rS
+Od
+jo
+vx
+GG
+AN
+po
+KV
+KV
+KV
+KV
+KV
+po
+FF
+Fb
+Fb
+Fb
+Fb
+Fb
+ll
+yc
+lb
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(70,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+TA
+Kt
+sg
+Jr
+BN
+mM
+Ib
+Ib
+go
+go
+go
+go
+JC
+FF
+Js
+Js
+Js
+Js
+Js
+FF
+de
+mW
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(71,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+oI
+Od
+sg
+CO
+CO
+CO
+yQ
+yQ
+Am
+Am
+Am
+Am
+Am
+Ia
+Js
+Js
+Js
+Js
+Js
+FF
+de
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(72,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+sg
+sg
+sg
+sg
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+wn
+Cg
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(73,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+NH
+ln
+ln
+NH
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+FF
+Ia
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(74,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(75,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(76,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(77,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(78,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(79,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(80,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(81,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(82,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+HA
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(83,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(84,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(85,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(86,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(87,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(88,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(89,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(90,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(91,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(92,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(93,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(94,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(95,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(96,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(97,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(98,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(99,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}
+(100,1,1) = {"
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+Js
+"}

@@ -1,0 +1,6 @@
+{
+	"ckey": "devilmayrus",
+	"character_name": "Jovan Vukashin",
+	"item_path": "/obj/item/clothing/head/helmet/sarov",
+	"req_access" :      [ "ACCESS_SECURITY" ]
+}

@@ -1,0 +1,288 @@
+"aa" = (/turf/space,/area/space)
+"ab" = (/obj/machinery/ion_engine{dir = 4},/turf/simulated/floor/airless,/area/ellipse/shuttle)
+"ac" = (/obj/effect/paint/black,/turf/simulated/wall/r_titanium,/area/ellipse/bridge)
+"ad" = (/obj/effect/paint/black,/turf/simulated/wall/r_titanium,/area/ellipse/atom)
+"ae" = (/obj/effect/paint/black,/turf/simulated/wall/r_titanium,/area/ellipse/research)
+"af" = (/obj/effect/shuttle_landmark/nav_ellipse/nav2,/turf/space,/area/space)
+"ag" = (/obj/effect/shuttle_landmark/nav_ellipse/nav1,/turf/space,/area/space)
+"ah" = (/obj/machinery/power/port_gen/pacman/super,/obj/effect/floor_decal/corner/grey/border{dir = 9},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"ai" = (/obj/machinery/floodlight,/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aj" = (/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"ak" = (/obj/effect/floor_decal/corner/grey/border{dir = 5},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"al" = (/obj/machinery/power/smes/buildable/preset/on_full{name = "Main SMES"},/obj/effect/floor_decal/corner/red/border{dir = 9},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"am" = (/obj/machinery/light{dir = 1},/obj/effect/floor_decal/corner/red/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"an" = (/obj/structure/table/reinforced,/obj/item/stack/material/uranium{amount = 25},/obj/effect/floor_decal/corner/red/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"ao" = (/obj/structure/table/reinforced,/obj/item/stack/material/uranium{amount = 30},/obj/effect/floor_decal/corner/red/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"ap" = (/obj/machinery/light{dir = 1},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/corner/red/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"aq" = (/obj/machinery/power/shield_generator/precharged,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/effect/floor_decal/corner/red/border{dir = 5},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"ar" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/machinery/button/blast_door{name = "Test Chamber Lockdown"; id_tag = "eliptest"; pixel_y = 25},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"as" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/effect/floor_decal/corner/grey/border{dir = 8},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"at" = (/obj/machinery/ion_engine{dir = 8},/obj/effect/paint/black,/turf/simulated/wall/r_titanium,/area/ellipse/research)
+"au" = (/obj/structure/closet/toolcloset,/obj/effect/floor_decal/corner/grey/border{dir = 9},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"av" = (/obj/effect/floor_decal/corner/grey/border{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aw" = (/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"ax" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"ay" = (/obj/effect/floor_decal/corner/red/border{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/power/terminal{dir = 1},/obj/structure/cable,/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"az" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aA" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"aB" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/obj/effect/floor_decal/corner/red/border{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"aC" = (/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aD" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/ellipse/atom)
+"aE" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/ellipse/atom)
+"aF" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/plating,/area/ellipse/atom)
+"aG" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/ellipse/atom)
+"aH" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/ellipse/atom)
+"aI" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/plating,/area/ellipse/research)
+"aJ" = (/obj/effect/floor_decal/corner/grey/bordercorner{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aK" = (/obj/effect/floor_decal/corner/grey/border{dir = 9},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"aL" = (/obj/machinery/shipsensors,/turf/simulated/floor/airless,/area/ellipse/bridge)
+"aM" = (/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aN" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/floor_decal/corner/grey/border{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aO" = (/obj/effect/floor_decal/corner/red/border{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"aP" = (/obj/effect/floor_decal/corner/red/border{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"aQ" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/ellipse/research)
+"aR" = (/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"aS" = (/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"aT" = (/obj/effect/wallframe_spawn/reinforced_phoron/titanium,/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliptest"; name = "Blast Door"},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"aU" = (/obj/machinery/door/window{dir = 8},/obj/machinery/door/window{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliptest"; name = "Blast Door"},/turf/simulated/floor/reinforced,/area/ellipse/research)
+"aV" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/highsecurity,/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"aW" = (/obj/effect/paint/silver,/obj/machinery/ion_engine{dir = 4},/turf/simulated/floor/airless,/area/ellipse/shuttle)
+"aX" = (/obj/machinery/power/port_gen/pacman/super/potato,/obj/structure/cable,/obj/effect/floor_decal/corner/red/border,/obj/effect/floor_decal/industrial/hatch/yellow{color = "#b95a00"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"aY" = (/obj/machinery/portable_atmospherics/canister/carbon_dioxide,/obj/effect/floor_decal/corner/grey/border{dir = 10},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"aZ" = (/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"ba" = (/obj/machinery/r_n_d/protolathe,/obj/effect/floor_decal/corner/grey/border{dir = 9},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bb" = (/obj/machinery/r_n_d/destructive_analyzer,/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bc" = (/obj/effect/floor_decal/corner/red/border,/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"bd" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 1; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/obj/machinery/door/airlock/multi_tile/glass/command,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"be" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/corner/grey/border{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bf" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bg" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/machinery/computer/rdconsole{req_access = list("ACCESS_ELLIPSE")},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bh" = (/obj/machinery/light{dir = 1},/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/structure/table/reinforced,/obj/random/technology_scanner,/obj/random/powercell,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bi" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"; tag = "icon-railing0 (EAST)"},/obj/effect/floor_decal/corner/red/border{dir = 10},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"bj" = (/obj/structure/bed/chair/comfy/black,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bk" = (/obj/machinery/fabricator/hacked,/obj/effect/floor_decal/corner/grey/border{dir = 5},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bl" = (/obj/effect/floor_decal/corner/grey/border{dir = 4},/obj/effect/paint/black,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bm" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bn" = (/obj/effect/overmap/visitable/ship/ellipse,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bo" = (/obj/machinery/hologram/holopad/longrange,/obj/effect/floor_decal/industrial/outline/yellow,/obj/effect/submap_landmark/joinable_submap/ellipse,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bp" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bq" = (/obj/structure/railing/mapped{dir = 8; tag = "icon-railing0 (EAST)"},/obj/effect/floor_decal/corner/red/border{dir = 6},/turf/simulated/floor/tiled/techmaint,/area/ellipse/atom)
+"br" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bs" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bt" = (/obj/effect/floor_decal/corner/grey/border{dir = 4},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bu" = (/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bv" = (/turf/simulated/floor/reinforced,/area/ellipse/research)
+"bw" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{icon_state = "2-8"},/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/floor_decal/corner/grey/border{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bx" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"by" = (/obj/effect/paint/silver,/turf/simulated/wall/r_titanium,/area/ellipse/shuttle)
+"bz" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/power/terminal{dir = 1},/obj/structure/cable,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bA" = (/obj/effect/floor_decal/corner/grey/bordercorner{dir = 1},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bB" = (/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable,/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bC" = (/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bD" = (/obj/effect/floor_decal/corner/grey/bordercorner{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bE" = (/obj/machinery/computer/ship/sensors{icon_state = "computer"; dir = 4},/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/grey/border{dir = 9},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bF" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bG" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/machinery/button/blast_door{name = "Ship Full Lockdown"; id_tag = "eliplock"; pixel_y = 25},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bH" = (/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"bI" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_x = 0; pixel_y = 24; req_access = list("ACCESS_ENGINE_EQUIP")},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/effect/floor_decal/corner/grey/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bJ" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/anomaly_container,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bK" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bL" = (/obj/structure/railing/mapped{dir = 8; tag = "icon-railing0 (EAST)"},/obj/machinery/light{dir = 1},/obj/machinery/button/blast_door{id_tag = "land_door"; identifier = null; name = "Enter Shutters Control"; pixel_y = 30},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bM" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/effect/floor_decal/corner/grey/border{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bN" = (/obj/machinery/power/smes/buildable/preset/on_full{name = "Land-042 SMES"},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bO" = (/obj/machinery/shipsensors,/turf/simulated/floor/airless,/area/ellipse/shuttle)
+"bP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 1; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bQ" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/hologram/holopad/longrange,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/effect/shuttle_landmark/nav_ellipse/nav_dock,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bR" = (/obj/machinery/computer/ship/helm{dir = 4; icon_state = "computer"},/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"bS" = (/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bT" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/obj/machinery/door/airlock/multi_tile/glass/command{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bU" = (/obj/structure/bed/chair/shuttle/black{dir = 4; icon_state = "shuttle_chair_preview"},/obj/machinery/button/blast_door{id_tag = "land_shutters"; name = "Window Shutters"; pixel_x = 25; pixel_y = 25},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bV" = (/obj/machinery/door/blast/regular/open{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Protective Shutters"; opacity = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bW" = (/obj/machinery/door/blast/regular/open{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "land_door"; name = "Protective Shutters"; opacity = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bX" = (/obj/machinery/computer/shuttle_control/explore/land,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"bY" = (/obj/effect/floor_decal/corner/grey/border{dir = 1},/obj/structure/table/reinforced,/obj/random/tech_supply,/obj/random/tech_supply,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"bZ" = (/obj/machinery/computer/ship/helm{dir = 8; icon_state = "computer"},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"ca" = (/obj/structure/railing/mapped{dir = 8; tag = "icon-railing0 (EAST)"},/obj/machinery/light,/obj/machinery/recharger,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"cb" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/ellipse/research)
+"cc" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cd" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"ce" = (/obj/effect/wallframe_spawn/reinforced/titanium,/obj/machinery/door/blast/regular/open{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "land_shutters"; name = "Protective Shutters"; opacity = 0},/turf/simulated/floor/plating,/area/ellipse/shuttle)
+"cf" = (/obj/machinery/door/airlock/external,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cg" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"ch" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"ci" = (/obj/machinery/mech_recharger,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"cj" = (/obj/effect/floor_decal/corner/grey/border{dir = 8},/obj/machinery/computer/ship/engines{dir = 4; icon_state = "computer"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"ck" = (/obj/machinery/computer/ship/sensors{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"cl" = (/obj/structure/table/reinforced,/obj/machinery/recharger,/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/grey/border{dir = 10},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cm" = (/obj/machinery/computer{dir = 1},/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cn" = (/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"co" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/recharge_station,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"cp" = (/obj/structure/table/rack,/obj/item/gun/projectile/heavysniper/ant,/obj/effect/floor_decal/corner/red/border{dir = 1},/obj/random/biggun,/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cq" = (/obj/structure/table/reinforced,/obj/random/tool,/obj/random/tool,/obj/effect/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cr" = (/obj/effect/floor_decal/corner/red/border{dir = 9},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cs" = (/obj/machinery/robotics_fabricator{req_access = list("ACCESS_ELLIPSE")},/obj/effect/floor_decal/corner/grey/border{dir = 10},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"ct" = (/obj/structure/table/rack,/obj/item/mech_equipment/shields,/obj/item/mech_equipment/catapult,/obj/item/mech_equipment/mounted_system/taser,/obj/effect/floor_decal/corner/red/border{dir = 1},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cu" = (/obj/effect/floor_decal/corner/grey/border,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cv" = (/obj/structure/table/rack,/obj/item/gun/energy/xray,/obj/effect/floor_decal/corner/red/border{dir = 1},/obj/item/gun/magnetic/railgun/automatic/deathsquad{desc = "The Jhen JT-78 Hydra. This appears to be of Terran design, but with big modifications."; name = "Ellipse Railgun"},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cw" = (/obj/machinery/recharger,/obj/effect/floor_decal/corner/red/border{dir = 5},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cx" = (/obj/structure/table/reinforced,/obj/machinery/light{dir = 8},/obj/item/storage/toolbox/mechanical,/obj/item/inflatable_dispenser,/obj/effect/floor_decal/corner/grey/border{dir = 8},/obj/item/device/robotanalyzer,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cy" = (/obj/effect/floor_decal/corner/red/border{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cz" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/obj/effect/floor_decal/corner/red/border{dir = 4},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cA" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/plating,/area/ellipse/arsenal)
+"cB" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/ellipse/arsenal)
+"cC" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/ellipse/research)
+"cD" = (/obj/effect/floor_decal/corner/grey/border{dir = 10},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cE" = (/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/red/border{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cF" = (/obj/machinery/light{dir = 4},/obj/effect/floor_decal/corner/red/border{dir = 4},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cG" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/overmap/visitable/ship/landable/landing_shuttle/land,/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"cH" = (/obj/effect/floor_decal/corner/grey/border{dir = 6},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cI" = (/obj/machinery/recharger,/obj/effect/floor_decal/corner/red/border{dir = 10},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cJ" = (/obj/effect/floor_decal/corner/red/border,/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cK" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/obj/machinery/door/airlock/multi_tile/glass/maintenance{dir = 8},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cL" = (/obj/structure/table/rack,/obj/item/gun/energy/stunrevolver,/obj/effect/floor_decal/corner/red/border{dir = 1},/obj/item/gun/energy/pulse_rifle/pistol,/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cM" = (/obj/machinery/mech_recharger,/obj/effect/floor_decal/corner/red/border{dir = 6},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cN" = (/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge{dir = 4})
+"cO" = (/obj/structure/railing/mapped{dir = 8; tag = "icon-railing0 (EAST)"},/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cP" = (/obj/machinery/light,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"; tag = "icon-railing0 (EAST)"},/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cQ" = (/obj/machinery/computer/ship/engines{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+"cR" = (/obj/structure/anomaly_container,/obj/effect/floor_decal/corner/grey/border,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cS" = (/obj/structure/table/rack,/obj/effect/floor_decal/corner/red/border,/obj/item/tank/jetpack/rig,/obj/item/tank/air,/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"cT" = (/obj/machinery/light{dir = 1},/obj/machinery/power/emitter{dir = 4},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/reinforced,/area/ellipse/research)
+"cU" = (/obj/machinery/artifact_scanpad,/turf/simulated/floor/reinforced,/area/ellipse/research)
+"cV" = (/obj/machinery/artifact_analyser,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/reinforced,/area/ellipse/research)
+"cW" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cX" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"cY" = (/obj/structure/table/reinforced,/obj/item/stack/nanopaste,/obj/item/device/binoculars,/obj/effect/floor_decal/corner/grey/border{dir = 9},/obj/random/powercell,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"cZ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/ellipse/research)
+"da" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced,/area/ellipse/research)
+"db" = (/obj/effect/catwalk_plated,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/ellipse/research)
+"dc" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dd" = (/obj/effect/floor_decal/corner/grey/bordercorner,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"de" = (/obj/machinery/light,/turf/simulated/floor/reinforced,/area/ellipse/research)
+"df" = (/obj/effect/floor_decal/corner/grey/bordercorner{dir = 8},/obj/effect/submap_landmark/spawnpoint/ellipse_operator,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"dg" = (/obj/effect/floor_decal/corner/grey/bordercorner{dir = 4},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dh" = (/obj/effect/floor_decal/corner/grey/border{dir = 10},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"di" = (/obj/effect/floor_decal/corner/grey/border{dir = 5},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dj" = (/obj/effect/floor_decal/corner/grey/border{dir = 6},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dk" = (/obj/machinery/light{dir = 1},/obj/structure/table/rack,/obj/item/stack/material/plasteel/ten,/obj/effect/floor_decal/corner/grey/border{dir = 1},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dl" = (/obj/structure/table/rack,/obj/item/stack/material/steel{amount = 50},/obj/item/stack/material/steel{amount = 50},/obj/effect/floor_decal/corner/grey/border{dir = 9},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dm" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/highsecurity,/obj/machinery/door/blast/regular/open{dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Blast Door"},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"dn" = (/obj/machinery/recharge_station,/obj/effect/floor_decal/corner/grey/border{dir = 10},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"do" = (/obj/effect/floor_decal/corner/grey/border,/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dp" = (/obj/structure/table/rack,/obj/item/stack/material/aluminium{amount = 50},/obj/random/material,/obj/effect/floor_decal/corner/grey/border{dir = 5},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dq" = (/obj/effect/floor_decal/corner/grey/border{dir = 6},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dr" = (/obj/structure/table/rack,/obj/item/stack/material/plastic{amount = 50},/obj/effect/floor_decal/corner/grey/border{dir = 10},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"ds" = (/obj/machinery/light,/obj/structure/table/rack,/obj/random/material,/obj/item/stack/material/rod{amount = 50},/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dt" = (/obj/structure/table/rack,/obj/item/clothing/suit/bio_suit/anomaly/strong,/obj/item/clothing/head/bio_hood/anomaly/strong,/obj/effect/floor_decal/corner/red/border,/obj/item/clothing/glasses/meson,/obj/item/clothing/head/helmet/space/void/security/alt{name = "Ellipse Helmet"},/obj/item/clothing/suit/space/void/swat{desc = "A heavily armored suit that protects against moderate damage."; name = "Ellipse Suit"},/turf/simulated/floor/tiled/dark,/area/ellipse/arsenal)
+"du" = (/obj/structure/table/rack,/obj/random/material,/obj/effect/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dv" = (/obj/structure/table/rack,/obj/item/stack/material/silver{amount = 10},/obj/effect/floor_decal/corner/grey/border{dir = 6},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dx" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/ellipse/bridge)
+"dy" = (/obj/effect/paint/black,/turf/simulated/wall/r_titanium,/area/ellipse/arsenal)
+"dz" = (/obj/structure/table/rack,/obj/item/stack/material/glass{amount = 50},/obj/random/material,/obj/effect/floor_decal/corner/grey/border{dir = 1},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dA" = (/obj/effect/shuttle_landmark/nav_ellipse/nav4,/turf/space,/area/space)
+"dB" = (/obj/effect/shuttle_landmark/nav_ellipse/nav3,/turf/space,/area/space)
+"dF" = (/obj/machinery/door/blast/regular/open{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "eliplock"; name = "Protective Shutters"; opacity = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/dark,/area/ellipse/research)
+"dG" = (/obj/machinery/door/blast/regular/open{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "land_door"; name = "Protective Shutters"; opacity = 0},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/techfloor,/area/ellipse/shuttle)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacadadadadadadadadaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacahaiaiakadalamanaoapaqadaKaAbxaraTbvcTcUcVaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacauaJajajavadayawawawaxaBadaRaScWcXaUcZdabvbvaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacaCajajajazaVaDaEaFaFaGaHaVaIdbdcaSaTbvbvbvbvaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacaMajajajaNadaOaxawawaxaPadaRaQddbCaTbvdebvbvaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaLacasajajajbeadbiaXbcbcaXbqadaRaQbtaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacaYbubuajbeaeaeaeaeaeaeaeaeaZaQbtaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacbdbPaebabbbgbhbYbkaeaRaQbtaeaaaWbybybybybybybOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacbEbGbIbMbfbwaeaRaSaSaSaSdgbxbAaQblaeaebybJbKbLbNbXbybyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacbRbjajajajdxcdaSaSaSaSaSaSaSaSaQaSbVbmbWbSbSbSbzbUbZceaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacaccjbobnajajbpbTbrbsbsbsbsbsbsbscbbsdFcfdGcgchbQcGbSckceaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacclcmcNbuajaNaebBaSaSaSaSddbCbDaQbtaeaebycncocacicQbybyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacbdbPaecscucOcPcRdjaeaRaQbtaeaaabbybybybybybyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacaccYbFbFajbeaeaeaeaeaeaeaeaeaZaQbtaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaccqajajajbedycrcpctcvcLcwdyaRaQbtaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaccxajajajaNdycybHbHbHbHczdyaRaQdgdiaedldkdzdpaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacaCajajajccdmcAcAcAcAcAcBdmaIcCaSaScdaSaSaSbtaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaccDdfajajavdycEbHbHbHbHcFdyaRaSaSaScKaSaSaSbtaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacdnbubucHdycIcJcSdtcJcMdydhdobCdqaedrdsdudvaeataaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacdydydydydydydydyaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
