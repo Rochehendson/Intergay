@@ -19,12 +19,12 @@ GLOBAL_DATUM_INIT(mini_role, /datum/antagonist/mini_roles, new)
 	var/list/datum/mini_role/all_mini_roles_datums = list() //All in round roles
 	//Whitelists of mini roles for every branch. Don't forget put new mini roles here
 	var/list/regcom_roles = list(/datum/mini_role/regcom_agent, /datum/mini_role/creditor, /datum/mini_role/pyroman)
-	var/list/gov_roles = list(/datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/pyroman, /datum/mini_role/treasure_hunter)
-	var/list/syndicate_roles = list(/datum/mini_role/syndicate_agent, /datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/pyroman, /datum/mini_role/treasure_hunter)
-	var/list/military_roles = list(/datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/cannibal, /datum/mini_role/pyroman, /datum/mini_role/torch, /datum/mini_role/treasure_hunter)
-	var/list/traders_roles = list(/datum/mini_role/contrabandist, /datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/link, /datum/mini_role/treasure_hunter)
-	var/list/scum_roles = list(/datum/mini_role/contrabandist, /datum/mini_role/contractor, /datum/mini_role/rat, /datum/mini_role/cannibal, /datum/mini_role/pyroman, /datum/mini_role/torch, /datum/mini_role/link, /datum/mini_role/mutant, /datum/mini_role/bluespace, /datum/mini_role/treasure_hunter) //Criminals
-	var/list/other_roles = list(/datum/mini_role/contrabandist, /datum/mini_role/contractor, /datum/mini_role/pyroman, /datum/mini_role/torch, /datum/mini_role/link, /datum/mini_role/mutant, /datum/mini_role/bluespace, /datum/mini_role/treasure_hunter)
+	var/list/gov_roles = list(/datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/pyroman)
+	var/list/syndicate_roles = list(/datum/mini_role/syndicate_agent, /datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/pyroman)
+	var/list/military_roles = list(/datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/cannibal, /datum/mini_role/pyroman, /datum/mini_role/torch)
+	var/list/traders_roles = list(/datum/mini_role/contrabandist, /datum/mini_role/rat, /datum/mini_role/creditor, /datum/mini_role/link)
+	var/list/scum_roles = list(/datum/mini_role/contrabandist, /datum/mini_role/contractor, /datum/mini_role/rat, /datum/mini_role/cannibal, /datum/mini_role/pyroman, /datum/mini_role/torch, /datum/mini_role/link, /datum/mini_role/mutant, /datum/mini_role/bluespace) //Criminals
+	var/list/other_roles = list(/datum/mini_role/contrabandist, /datum/mini_role/contractor, /datum/mini_role/pyroman, /datum/mini_role/torch, /datum/mini_role/link, /datum/mini_role/mutant, /datum/mini_role/bluespace)
 
 /datum/antagonist/mini_roles/create_antagonist(var/datum/mind/target, var/move, var/gag_announcement, var/preserve_appearance)
 
@@ -241,12 +241,11 @@ GLOBAL_DATUM_INIT(mini_role, /datum/antagonist/mini_roles, new)
 	gear = list(/obj/item/material/knife/kitchen/cleaver, /obj/item/handcuffs, /obj/item/tape_roll, /obj/item/device/flash, /obj/item/clothing/mask/chameleon/voice, /obj/item/beartrap)
 	random_gear = 2
 
-
 /datum/mini_role/rat
 	name = "Крыса"
 	desc = "Может они держат в плену всё что Вам дорого, а может Вы уже не в первый раз вставляете нож в спину своим хозяевам. Как-бы то не было, Вы согласились найти для кое-кого компрометирующую информацию на миссию Кастельнау. Ходите, смотрите и слушайте. Эти военные преступники наверняка не заставят Вас долго ждать."
 	objective = "Доживите до конца смены сохранив свою роль в секрете."
-	gear = list(/obj/item/storage/box/syndie_kit/spy, /obj/item/reagent_containers/food/snacks/spacecash/bundle/c2000, /obj/item/storage/box/radiokeys, /obj/item/device/uv_light, /obj/item/device/camera, /obj/item/device/taperecorder)
+	gear = list(/obj/item/storage/box/syndie_kit/spy, /obj/item/reagent_containers/food/snacks/spacecash/bundle/c2000, /obj/item/device/uv_light, /obj/item/device/camera, /obj/item/device/taperecorder)
 	random_gear = 2
 
 /datum/mini_role/rat/special_act(var/mob/living/carbon/human/target)
@@ -465,7 +464,7 @@ GLOBAL_DATUM_INIT(mini_role, /datum/antagonist/mini_roles, new)
 	spell_2 = pick(possible_spells)
 	target.add_spell(new spell_2)
 
-
+/*
 /datum/mini_role/treasure_hunter
 	name = "Искатель сокровищ"
 	desc = "Может Вы купили это устройство у подозрительной личности с тростью за половину своих сбережений, а может просто сняли его с забытого трупа на Кадаабе. В любом случае, как Вы поняли, эта штучка указывает на некий тайник... Вероятно полный ценностей."
@@ -496,7 +495,7 @@ GLOBAL_DATUM_INIT(mini_role, /datum/antagonist/mini_roles, new)
 			treasure = weakref(new /obj/structure/closet/crate/secure/loot(selected_turf))
 			pinpointer.target = treasure
 			break
-
+*/
 /* Tired
 /datum/mini_role/cyborg
 	name = "Киборг"

@@ -136,11 +136,7 @@
 				/mob/living/simple_animal/hostile/meat/strippedhuman = 10,
 				/mob/living/simple_animal/hostile/meat/humansecurity = 6,
 				/mob/living/simple_animal/hostile/meat/horror = 5,
-				/mob/living/simple_animal/hostile/meat/abomination = 3,
-				/mob/living/simple_animal/hostile/meatstation/meatmound = 4,
-				/mob/living/simple_animal/hostile/meatstation/wormguard = 2,
-				/mob/living/simple_animal/hostile/meatstation/meatball = 8,
-				/mob/living/simple_animal/hostile/meatstation/meatworm = 9)
+				/mob/living/simple_animal/hostile/meat/abomination = 3)
 
 /obj/random/simple_mob/bot
 	name = "random bot"
@@ -180,7 +176,7 @@
 ////
 // No way, turf random generation?7?
 ////
-
+/*
 /obj/random/syndivault
 	name = "syndivault door"
 	desc = "Here can spawn airlock or wall turf"
@@ -191,3 +187,4 @@
 /obj/random/syndivault/spawn_choices()
 	return list(/obj/machinery/door/airlock/vault,
 				/turf/unsimulated/cadaab/rock)
+*/

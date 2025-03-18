@@ -56,7 +56,7 @@
 			for(var/i = 0, i < 4, i++)
 				new/obj/item/grenade/frag/high_yield(src)
 		if(59 to 60)
-			new/obj/item/rig/infantry/sl/equipped(src)
+			new/obj/item/rig/zero(src)
 		if(61 to 62)
 			for(var/i = 0, i < 8, ++i)
 				new/obj/item/stack/material/gold/ten(src)
