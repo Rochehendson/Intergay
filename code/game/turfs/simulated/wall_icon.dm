@@ -60,10 +60,6 @@
 		I = image('icons/turf/wall_masks.dmi', "[material.icon_base][wall_connections[i]]", dir = SHIFTL(1, i - 1))
 		I.color = base_color
 		overlays += I
-		if(other_connections[i] != "0")
-			I = image('icons/turf/wall_masks.dmi', "[material.icon_base]_other[wall_connections[i]]", dir = SHIFTL(1, i - 1))
-			I.color = base_color
-			overlays += I
 
 	if(reinf_material)
 		var/reinf_color = paint_color ? paint_color : reinf_material.icon_colour
@@ -87,10 +83,7 @@
 		overlays += texture
 	if(stripe_color)
 		for(var/i = 1 to 4)
-			if(other_connections[i] != "0")
-				I = image('icons/turf/wall_masks.dmi', "stripe_other[wall_connections[i]]", dir = SHIFTL(1, i - 1))
-			else
-				I = image('icons/turf/wall_masks.dmi', "stripe[wall_connections[i]]", dir = SHIFTL(1, i - 1))
+			I = image('icons/turf/wall_masks.dmi', "stripe[wall_connections[i]]", dir = SHIFTL(1, i - 1))
 			I.color = stripe_color
 			overlays += I
 
@@ -151,7 +144,7 @@
 				other_dirs += get_dir(src, T)
 
 	wall_connections = dirs_to_corner_states(wall_dirs)
-	other_connections = dirs_to_corner_states(other_dirs)
+//	other_connections = dirs_to_corner_states(other_dirs)
 
 /turf/simulated/wall/proc/can_join_with(var/turf/simulated/wall/W)
 	if(material && W.material && material.icon_base == W.material.icon_base)

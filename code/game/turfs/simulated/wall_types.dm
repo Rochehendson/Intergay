@@ -89,6 +89,12 @@
 /turf/simulated/wall/rutile/New(var/newloc)
 	..(newloc,MATERIAL_RUTILE)
 
+/turf/simulated/wall/silver/New(var/newloc)
+	..(newloc,MATERIAL_SILVER)
+
+/turf/simulated/wall/rusted/New(var/newloc)
+	..(newloc,MATERIAL_RUSTED)
+
 /turf/simulated/wall/wood
 	blend_turfs = list(/turf/simulated/wall/cult, /turf/simulated/wall)
 	icon_state = "woodneric"

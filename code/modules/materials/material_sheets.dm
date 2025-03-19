@@ -29,7 +29,7 @@
 	if(default_reinf_type)
 		reinf_material = SSmaterials.get_material_by_name(default_reinf_type)
 	base_state = icon_state
-	
+
 	if(!stacktype)
 		stacktype = material.stack_type
 	if(islist(material.stack_origin_tech))
@@ -47,7 +47,7 @@
 	if(!material)
 		return
 	recipes = material.get_recipes(reinf_material && reinf_material.name)
-	..() 
+	..()
 
 /obj/item/stack/material/get_codex_value()
 	return (material && !material.hidden_from_codex) ? "[lowertext(material.display_name)] (material)" : ..()
@@ -75,7 +75,7 @@
 
 	if(material_flags & USE_MATERIAL_PLURAL_NAME)
 		plural_name = material.sheet_plural_name
-	
+
 	if(amount>1)
 		SetName("[material.use_name] [plural_name]")
 		desc = "A stack of [material.use_name] [plural_name]."
@@ -330,6 +330,19 @@
 /obj/item/stack/material/steel/fifty
 	amount = 50
 
+obj/item/stack/material/steel/rusted
+	name = "rusted steel"
+	icon_state = "sheet"
+	plural_icon_state = "sheet-mult"
+	max_icon_state = "sheet-max"
+	default_type = MATERIAL_COPPER
+
+/obj/item/stack/material/steel/rusted/ten
+	amount = 10
+
+/obj/item/stack/material/steel/rusted/fifty
+	amount = 50
+
 /obj/item/stack/material/aluminium
 	name = "aluminium"
 	icon_state = "sheet-sheen"
@@ -483,7 +496,7 @@
 	default_type = MATERIAL_GLASS
 
 /obj/item/stack/material/glass/on_update_icon()
-	if(reinf_material) 
+	if(reinf_material)
 		icon_state = "sheet-glass-reinf"
 		base_state = icon_state
 		plural_icon_state = "sheet-glass-reinf-mult"

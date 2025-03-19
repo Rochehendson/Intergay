@@ -50,6 +50,7 @@
 #define MATERIAL_NULLGLASS               "nullglass"
 #define MATERIAL_GROWTH                  "growth"
 #define MATERIAL_RESIN                   "resin" //boh
+#define MATERIAL_RUSTED                  "rusted"
 
 //woods
 #define MATERIAL_WOOD                    "wood"

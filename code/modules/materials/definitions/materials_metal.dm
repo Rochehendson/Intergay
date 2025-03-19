@@ -129,6 +129,29 @@
 	construction_difficulty = MATERIAL_NORMAL_DIY
 	value = 4
 
+/material/steel/rusted
+	name = MATERIAL_RUSTED
+	lore_text = "A strong, flexible alloy of iron and carbon. Rusted."
+	wall_name = "bulkhead"
+	stack_type = /obj/item/stack/material/steel/rusted
+	integrity = 150
+	brute_armor = 4
+	burn_armor = 9
+	icon_base = "rusted"
+	icon_reinf = "reinf_over"
+	icon_colour = COLOR_STEEL
+	hitsound = 'sound/weapons/smash.ogg'
+	chem_products = list(
+				/datum/reagent/iron = 19.6,
+				/datum/reagent/carbon = 0.4
+				)
+	alloy_materials = null
+	alloy_product = FALSE
+	sale_price = 1
+	ore_smelts_to = null
+	construction_difficulty = MATERIAL_NORMAL_DIY
+	value = 4
+
 /material/steel/holographic
 	name = "holo" + MATERIAL_STEEL
 	display_name = MATERIAL_STEEL
