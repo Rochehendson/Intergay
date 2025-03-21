@@ -140,8 +140,8 @@
 
 	if(href_list["add_goal"])
 
-		var/mob/caller = locate(href_list["add_goal_caller"])
-		if(!isghost(usr) && caller && caller == current) can_modify = TRUE
+		var/mob/callerr = locate(href_list["add_goal_caller"])
+		if(!isghost(usr) && callerr && callerr == current) can_modify = TRUE
 
 		if(can_modify)
 			var/did_generate_goal = generate_goals(assigned_job, TRUE, 1, bypass_goal_checks = is_admin)
@@ -161,8 +161,8 @@
 	if(href_list["abandon_goal"])
 		var/datum/goal/goal = locate(href_list["abandon_goal"])
 
-		var/mob/caller = locate(href_list["abandon_goal_caller"])
-		if(!isghost(usr) && caller && caller == current) can_modify = TRUE
+		var/mob/callerr = locate(href_list["abandon_goal_caller"])
+		if(!isghost(usr) && callerr && callerr == current) can_modify = TRUE
 
 		if(can_modify && goal && (goal in goals))
 			if(delete_goal(assigned_job, goal, is_admin))
@@ -177,8 +177,8 @@
 	if(href_list["reroll_goal"])
 		var/datum/goal/goal = locate(href_list["reroll_goal"])
 
-		var/mob/caller = locate(href_list["reroll_goal_caller"])
-		if(!isghost(usr) && caller && caller == current) can_modify = TRUE
+		var/mob/callerr = locate(href_list["reroll_goal_caller"])
+		if(!isghost(usr) && callerr && callerr == current) can_modify = TRUE
 
 		if(can_modify && goal && (goal in goals))
 			if(generate_goals(assigned_job, TRUE, 1, bypass_goal_checks = TRUE))
