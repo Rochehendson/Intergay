@@ -363,6 +363,15 @@
 /obj/item/stack/tile/os/yellow/fifty
 	amount = 50
 
+/obj/item/stack/tile/os/chessyellow
+	name = "chess yellow floor tile"
+	singular_name = "chess yellow floor tile"
+	icon_state = "tile_white"
+	color = COLOR_PALE_YELLOW
+
+/obj/item/stack/tile/os/yellow/fifty
+	amount = 50
+
 /obj/item/stack/tile/os/brighter
 	name = "pale floor tile"
 	singular_name = "pale floor tile"

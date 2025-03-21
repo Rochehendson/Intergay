@@ -1,6 +1,7 @@
 #if !defined(using_map_DATUM)
 	#include "cricket_areas.dm"
 	#include "cricket_shuttles.dm"
+	#include "cricket_define.dm"
 	#include "cricket_unit_testing.dm"
 
 	#include "cricket-1.dmm"

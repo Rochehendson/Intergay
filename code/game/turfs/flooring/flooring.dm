@@ -443,6 +443,11 @@
 	icon_base = "polar_cargo"
 	build_type = /obj/item/stack/tile/os/yellow
 
+/decl/flooring/os/chessyellow
+	name = "chess yellow floor"
+	icon_base = "polar_cargo_chess"
+	build_type = /obj/item/stack/tile/os/yellowchess
+
 /decl/flooring/os/brighter
 	name = "pale floor"
 	icon_base = "polar_brighter"

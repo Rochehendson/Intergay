@@ -456,6 +456,12 @@
 	icon_state = "polar_cargo"
 	initial_flooring = /decl/flooring/os/yellow
 
+/turf/simulated/floor/os/chessyellow
+	name = "chess yellow floor"
+	icon_state = "polar_cargo_chess"
+	initial_flooring = /decl/flooring/os/chessyellow
+
+
 /turf/simulated/floor/os/brighter
 	name = "pale floor"
 	icon_state = "polar_brighter"
