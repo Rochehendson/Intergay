@@ -403,3 +403,92 @@
 	wall_smooth = SMOOTH_NONE
 	space_smooth = SMOOTH_NONE
 	height = -FLUID_OVER_MOB_HEAD * 2
+
+// Dark and Gritty
+
+/decl/flooring/os
+	name = "floor"
+	desc = "A solid, heavy set of flooring plates."
+	icon = 'icons/turf/flooring/darkandgritty.dmi'
+	icon_base = "polar"
+	has_damage_range = 4
+	damage_temperature = T0C+1400
+	flags = TURF_REMOVE_CROWBAR
+	build_type = /obj/item/stack/tile/os
+	can_paint = 0
+	footstep_type = /decl/footsteps/tiles
+
+/decl/flooring/os/white
+	name = "white floor"
+	icon_base = "npolar"
+	build_type = /obj/item/stack/tile/os/white
+
+/decl/flooring/os/chess
+	name = "chess floor"
+	icon_base = "polar_chess"
+	build_type = /obj/item/stack/tile/os/chess
+
+/decl/flooring/os/green
+	name = "green floor"
+	icon_base = "polar_green"
+	build_type = /obj/item/stack/tile/os/green
+
+/decl/flooring/os/blue
+	name = "blue floor"
+	icon_base = "polar_blue"
+	build_type = /obj/item/stack/tile/os/blue
+
+/decl/flooring/os/yellow
+	name = "yellow floor"
+	icon_base = "polar_cargo"
+	build_type = /obj/item/stack/tile/os/yellow
+
+/decl/flooring/os/brighter
+	name = "pale floor"
+	icon_base = "polar_brighter"
+	build_type = /obj/item/stack/tile/os/brighter
+
+/decl/flooring/os/os4
+	name = "gray plates"
+	icon_base = "os4"
+	build_type = /obj/item/stack/tile/os/os4
+
+/decl/flooring/os/os5
+	name = "chess plates"
+	icon_base = "os5"
+	build_type = /obj/item/stack/tile/os/os5
+
+/decl/flooring/os/os6
+	name = "light gray plates"
+	icon_base = "os6"
+	build_type = /obj/item/stack/tile/os/os6
+
+/decl/flooring/os/os7
+	name = "yellow plates"
+	icon_base = "os7"
+	build_type = /obj/item/stack/tile/os/os7
+
+/decl/flooring/os/os8
+	name = "yellow plates"
+	icon_base = "os8"
+	build_type = /obj/item/stack/tile/os/os8
+
+/decl/flooring/os/os9
+	name = "white plates"
+	icon_base = "os9"
+	build_type = /obj/item/stack/tile/os/os9
+
+/decl/flooring/os/os10
+	name = "chess white plates"
+	icon_base = "os10"
+	build_type = /obj/item/stack/tile/os/os10
+
+/decl/flooring/os/os11
+	name = "dark purple plates"
+	icon_base = "os11"
+	build_type = /obj/item/stack/tile/os/os11
+
+/decl/flooring/os/os12
+	name = "purple plates"
+	icon_base = "os12"
+	build_type = /obj/item/stack/tile/os/os12

@@ -308,3 +308,146 @@
 	singular_name = "pool tile"
 	icon_state = "tile_pool"
 	matter = list(MATERIAL_STEEL = 450)
+
+// Dark and Gritty
+
+/obj/item/stack/tile/os
+	name = "floor tile"
+	desc = "Some old set of tiles. Dirt melted in it"
+	singular_name = "floor tile"
+	icon_state = "tile_white"
+
+/obj/item/stack/tile/os/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/white
+	name = "white tile"
+	singular_name = "white floor tile"
+	icon_state = "tile_white"
+
+/obj/item/stack/tile/os/white/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/chess
+	name = "chess floor tile"
+	singular_name = "chess floor tile"
+	icon_state = "tile_white"
+
+/obj/item/stack/tile/os/chess/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/green
+	name = "green floor tile"
+	singular_name = "green floor tile"
+	icon_state = "tile_white"
+	color = COLOR_PALE_GREEN_GRAY
+
+/obj/item/stack/tile/os/green/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/blue
+	name = "blue floor tile"
+	singular_name = "blue floor tile"
+	icon_state = "tile_white"
+	color = COLOR_PALE_BLUE_GRAY
+
+/obj/item/stack/tile/os/blue/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/yellow
+	name = "yellow floor tile"
+	singular_name = "yellow floor tile"
+	icon_state = "tile_white"
+	color = COLOR_PALE_YELLOW
+
+/obj/item/stack/tile/os/yellow/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/brighter
+	name = "pale floor tile"
+	singular_name = "pale floor tile"
+	icon_state = "tile_white"
+
+/obj/item/stack/tile/os/brighter/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os4
+	name = "gray plates tile"
+	singular_name = "gray plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_GRAY
+
+/obj/item/stack/tile/os/os4/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os5
+	name = "chess plates tile"
+	singular_name = "chess plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_GRAY
+
+/obj/item/stack/tile/os/os5/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os6
+	name = "light gray plates tile"
+	singular_name = "light gray plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_GRAY80
+
+/obj/item/stack/tile/os/os6/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os7
+	name = "yellow plates tile"
+	singular_name = "yellow plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_PALE_YELLOW
+
+/obj/item/stack/tile/os/os7/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os8
+	name = "chess yellow plates tile"
+	singular_name = "chess yellow plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_PALE_YELLOW
+
+/obj/item/stack/tile/os/os8/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os9
+	name = "white plates tile"
+	singular_name = "white plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_WHITE
+
+/obj/item/stack/tile/os/os9/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os10
+	name = "chess white plates tile"
+	singular_name = "chess white plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_WHITE
+
+/obj/item/stack/tile/os/os10/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os11
+	name = "dark purple plates tile"
+	singular_name = "dark purple plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_PURPLE
+
+/obj/item/stack/tile/os/os11/fifty
+	amount = 50
+
+/obj/item/stack/tile/os/os12
+	name = "purple plates tile"
+	singular_name = "purple plate tile"
+	icon_state = "techtile_grid"
+	color = COLOR_PALE_PURPLE_GRAY
+
+/obj/item/stack/tile/os/os12/fifty
+	amount = 50

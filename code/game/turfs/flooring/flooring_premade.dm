@@ -1,7 +1,7 @@
 // simulated/floor is currently plating by default, but there really should be an explicit plating type.
 /turf/simulated/floor/plating
 	name = "plating"
-	icon = 'icons/turf/flooring/plating.dmi'
+	icon = 'icons/turf/flooring/darkandgritty.dmi'
 	icon_state = "plating"
 	layer = PLATING_LAYER
 
@@ -123,7 +123,7 @@
 
 /turf/simulated/floor/reinforced
 	name = "reinforced floor"
-	icon = 'icons/turf/flooring/tiles.dmi'
+	icon = 'icons/turf/flooring/darkandgritty.dmi'
 	icon_state = "reinforced"
 	initial_flooring = /decl/flooring/reinforced
 
@@ -180,6 +180,11 @@
 	name = "steel floor"
 	icon = 'icons/turf/flooring/tiles.dmi'
 	icon_state = "steel"
+	initial_flooring = /decl/flooring/tiling
+
+/turf/simulated/floor/tiled/chess
+	name = "chess floor"
+	icon_state = "chess"
 	initial_flooring = /decl/flooring/tiling
 
 /turf/simulated/floor/tiled/dark
@@ -418,3 +423,85 @@
 	icon = 'icons/turf/flooring/pool.dmi'
 	icon_state = "pool"
 	initial_flooring = /decl/flooring/pool
+
+// Dark and gritty
+/turf/simulated/floor/os
+	name = "floor"
+	icon = 'icons/turf/flooring/darkandgritty.dmi'
+	icon_state = "polar"
+	initial_flooring = /decl/flooring/os
+
+/turf/simulated/floor/os/white
+	name = "white floor"
+	icon_state = "npolar"
+	initial_flooring = /decl/flooring/os/white
+
+/turf/simulated/floor/os/chess
+	name = "chess floor"
+	icon_state = "polar_chess"
+	initial_flooring = /decl/flooring/os/chess
+
+/turf/simulated/floor/os/green
+	name = "green floor"
+	icon_state = "polar_green"
+	initial_flooring = /decl/flooring/os/green
+
+/turf/simulated/floor/os/blue
+	name = "blue floor"
+	icon_state = "polar_blue"
+	initial_flooring = /decl/flooring/os/blue
+
+/turf/simulated/floor/os/yellow
+	name = "yellow floor"
+	icon_state = "polar_cargo"
+	initial_flooring = /decl/flooring/os/yellow
+
+/turf/simulated/floor/os/brighter
+	name = "pale floor"
+	icon_state = "polar_brighter"
+	initial_flooring = /decl/flooring/os/brighter
+
+/turf/simulated/floor/os/os4
+	name = "gray plates"
+	icon_state = "s4"
+	initial_flooring = /decl/flooring/os/os4
+
+/turf/simulated/floor/os/os5
+	name = "chess plates"
+	icon_state = "s5"
+	initial_flooring = /decl/flooring/os/os5
+
+/turf/simulated/floor/os/os6
+	name = "light gray plates"
+	icon_state = "s6"
+	initial_flooring = /decl/flooring/os/os6
+
+/turf/simulated/floor/os/os7
+	name = "yellow plates"
+	icon_state = "s7"
+	initial_flooring = /decl/flooring/os/os7
+
+/turf/simulated/floor/os/os8
+	name = "chess yellow plates"
+	icon_state = "s8"
+	initial_flooring = /decl/flooring/os/os8
+
+/turf/simulated/floor/os/os9
+	name = "white plates"
+	icon_state = "s9"
+	initial_flooring = /decl/flooring/os/os9
+
+/turf/simulated/floor/os/os10
+	name = "chess white plates"
+	icon_state = "s10"
+	initial_flooring = /decl/flooring/os/os10
+
+/turf/simulated/floor/os/os11
+	name = "dark purple plates"
+	icon_state = "s11"
+	initial_flooring = /decl/flooring/os/os11
+
+/turf/simulated/floor/os/os12
+	name = "purple plates"
+	icon_state = "s12"
+	initial_flooring = /decl/flooring/os/os12
