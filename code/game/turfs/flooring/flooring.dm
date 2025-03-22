@@ -446,7 +446,7 @@
 /decl/flooring/os/chessyellow
 	name = "chess yellow floor"
 	icon_base = "polar_cargo_chess"
-	build_type = /obj/item/stack/tile/os/yellowchess
+	build_type = /obj/item/stack/tile/os/chessyellow
 
 /decl/flooring/os/brighter
 	name = "pale floor"

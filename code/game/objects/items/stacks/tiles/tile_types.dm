@@ -369,7 +369,7 @@
 	icon_state = "tile_white"
 	color = COLOR_PALE_YELLOW
 
-/obj/item/stack/tile/os/yellow/fifty
+/obj/item/stack/tile/os/chessyellow/fifty
 	amount = 50
 
 /obj/item/stack/tile/os/brighter
