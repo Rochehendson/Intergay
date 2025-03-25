@@ -164,7 +164,7 @@
 
 		loading = TRUE
 
-		addtimer(CALLBACK(src, .proc/scan_mob, scanner.occupant), 2 SECONDS)
+		addtimer(CALLBACK(src, PROC_REF(scan_mob), scanner.occupant), 2 SECONDS)
 
 		//No locking an open scanner.
 	else if ((href_list["lock"]) && (!isnull(scanner)))

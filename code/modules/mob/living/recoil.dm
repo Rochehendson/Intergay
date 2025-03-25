@@ -16,9 +16,9 @@
 	else
 		recoil = 0
 
-	if(recoil != 0) recoil_reduction_timer = addtimer(CALLBACK(src, .proc/calc_recoil), 0.1 SECONDS, TIMER_STOPPABLE)
+	if(recoil != 0) recoil_reduction_timer = addtimer(CALLBACK(src, PROC_REF(calc_recoil)), 0.1 SECONDS, TIMER_STOPPABLE)
 	else deltimer(recoil_reduction_timer)
 
 //Called after setting recoil
 /mob/living/proc/update_recoil()
-	recoil_reduction_timer = addtimer(CALLBACK(src, .proc/calc_recoil), 0.3 SECONDS, TIMER_STOPPABLE)
+	recoil_reduction_timer = addtimer(CALLBACK(src, PROC_REF(calc_recoil)), 0.3 SECONDS, TIMER_STOPPABLE)

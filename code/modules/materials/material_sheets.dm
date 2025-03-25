@@ -330,7 +330,7 @@
 /obj/item/stack/material/steel/fifty
 	amount = 50
 
-obj/item/stack/material/steel/rusted
+/obj/item/stack/material/steel/rusted
 	name = "rusted steel"
 	icon_state = "sheet"
 	plural_icon_state = "sheet-mult"

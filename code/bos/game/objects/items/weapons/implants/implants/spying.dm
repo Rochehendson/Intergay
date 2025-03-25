@@ -11,7 +11,7 @@
 	to_chat(user, "You claim \the [src].")
 
 /obj/item/implant/spying/implanted()
-	timer = addtimer(CALLBACK(src, .proc/report), 1 MINUTES, TIMER_STOPPABLE)
+	timer = addtimer(CALLBACK(src, PROC_REF(report)), 1 MINUTES, TIMER_STOPPABLE)
 
 /obj/item/implant/spying/removed()
 	deltimer(timer)

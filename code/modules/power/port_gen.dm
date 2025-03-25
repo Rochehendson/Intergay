@@ -98,7 +98,7 @@
 
 	if(duration)
 		stat |= EMPED
-		addtimer(CALLBACK(src, .proc/resolve_emp_timer), duration)
+		addtimer(CALLBACK(src, PROC_REF(resolve_emp_timer)), duration)
 
 /obj/machinery/power/port_gen/proc/resolve_emp_timer()
 	stat &= ~EMPED

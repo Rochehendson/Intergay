@@ -27,7 +27,7 @@
 		product.reagents.add_reagent(/datum/reagent/blood,30,data)
 
 		virusing = 1
-		addtimer(CALLBACK(src, .proc/resetCloningTimer), 1 MINUTE)
+		addtimer(CALLBACK(src, PROC_REF(resetCloningTimer)), 1 MINUTE)
 
 		state("The [src.name] Buzzes", "blue")
 		return

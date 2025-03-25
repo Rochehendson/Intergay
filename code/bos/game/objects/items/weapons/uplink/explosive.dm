@@ -27,7 +27,7 @@
 
 		to_chat(user, "Bomb has been planted.")
 
-		GLOB.density_set_event.register(target, src, .proc/explode)
+		GLOB.density_set_event.register(target, src, PROC_REF(explode))
 
 
 /obj/item/weapon/door_charge/proc/explode(var/obj/machinery/door/airlock/airlock)

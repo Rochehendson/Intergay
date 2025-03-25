@@ -97,8 +97,8 @@ var/list/floating_chat_colors = list() //aurora
 
 	LAZYADD(holder.stored_chat_text, I)
 
-	addtimer(CALLBACK(GLOBAL_PROC, .proc/remove_floating_text, holder, I), duration)
-	addtimer(CALLBACK(GLOBAL_PROC, .proc/remove_images_from_clients, I, show_to), duration + CHAT_MESSAGE_EOL_FADE)
+	addtimer(CALLBACK(GLOBAL_PROC, PROC_REF(remove_floating_text), holder, I), duration)
+	addtimer(CALLBACK(GLOBAL_PROC, PROC_REF(remove_images_from_clients), I, show_to), duration + CHAT_MESSAGE_EOL_FADE)
 
 	return I
 
