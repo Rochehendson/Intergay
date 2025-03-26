@@ -94,7 +94,7 @@
 		return
 
 	if(overmap_missile.dangerous)
-		log_and_message_admins("A dangerous missile has entered the overmap (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[overmap_missile.x];Y=[overmap_missile.y];Z=[overmap_missile.z]'>JMP</a>)")
+		log_and_message_admins("A dangerous missile has entered the overmap (<a href='byond://?_src_=holder;adminplayerobservecoodjump=1;X=[overmap_missile.x];Y=[overmap_missile.y];Z=[overmap_missile.z]'>JMP</a>)")
 
 
 	origin = map_sectors["[z]"]
@@ -280,7 +280,7 @@
 
 
 	if(overmap_missile.dangerous)
-		log_and_message_admins("A dangerous missile has entered z level [z_level] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[x];Y=[y];Z=[z]'>JMP</a>)")
+		log_and_message_admins("A dangerous missile has entered z level [z_level] (<a href='byond://?_src_=holder;adminplayerobservecoodjump=1;X=[x];Y=[y];Z=[z]'>JMP</a>)")
 
 
 	// if we enter into a dense place, just detonate immediately
