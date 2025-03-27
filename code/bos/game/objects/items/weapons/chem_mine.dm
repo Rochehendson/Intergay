@@ -145,7 +145,7 @@
 
 	set_invisibility(INVISIBILITY_MAXIMUM)
 	detonator.activate()
-	addtimer(CALLBACK(GLOBAL_PROC, /.proc/qdel, src), 1 SECONDS)
+	addtimer(CALLBACK(GLOBAL_PROC, PROC_REF(qdel), src), 1 SECONDS)
 
 
 /obj/item/mine/chem_mine/examine(mob/user)

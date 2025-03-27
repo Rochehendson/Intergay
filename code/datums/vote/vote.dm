@@ -52,7 +52,7 @@
 	var/text = get_start_text()
 
 	log_vote(text)
-	to_world("<font color='purple'><b>[text]</b>\nType <b>vote</b> or click <a href='?src=\ref[SSvote];vote_panel=1'>here</a> to place your votes.\nYou have [config.vote_period/10] seconds to vote.</font>")
+	to_world("<font color='purple'><b>[text]</b>\nType <b>vote</b> or click <a href='byond://?src=\ref[SSvote];vote_panel=1'>here</a> to place your votes.\nYou have [config.vote_period/10] seconds to vote.</font>")
 	sound_to(world, sound('sound/ambience/alarm4.ogg', repeat = 0, wait = 0, volume = 50, channel = GLOB.vote_sound_channel))
 
 /datum/vote/proc/get_start_text()
@@ -75,7 +75,7 @@
 		if(!length(remaining_votes) || !length(remaining_choices))  // we ran out of options or votes, you get what we have
 			result += remaining_choices.Copy(1, clamp(result_length - length(result) + 1, 0, length(remaining_choices) + 1))
 			break
-		else 
+		else
 			// 50% majority or we don't have enough candidates to be picky, declare the winner and remove it from the possible candidates
 			if(remaining_choices[remaining_choices[1]] > length(remaining_votes) / 2 || length(remaining_choices) <= result_length - length(result))
 				var/winner = remaining_choices[1]
@@ -84,7 +84,7 @@
 			else // no winner, remove the biggest loser and go again
 				var/loser = remaining_choices[length(remaining_choices)]
 				remove_candidate(remaining_choices, remaining_votes, loser)
-			
+
 // Remove candidate from choice_list and any votes for it from vote_list, transfering first choices to second
 /datum/vote/proc/remove_candidate(list/choice_list, list/vote_list, candidate)
 	var/candidate_index = choices.Find(candidate) // use choices instead of choice_list because we need the original indexing
@@ -105,7 +105,7 @@
 
 	var/text = get_result_announcement()
 	log_vote(text)
-	to_world("<font color='purple'>[text]</font>")	
+	to_world("<font color='purple'>[text]</font>")
 
 	if(!(result[result[1]] > 0))
 		return 1
@@ -189,7 +189,7 @@
 		var/choice = choices[i]
 		var/voted_for = votes[user.ckey] && (i in votes[user.ckey])
 
-		. += "<tr><td><a href='?src=\ref[src];choice=[i]'[voted_for ? " style='font-weight: bold'" : ""]>"
+		. += "<tr><td><a href='byond://?src=\ref[src];choice=[i]'[voted_for ? " style='font-weight: bold'" : ""]>"
 		. += "[display_choices[choice]]"
 		. += "</a></td>"
 

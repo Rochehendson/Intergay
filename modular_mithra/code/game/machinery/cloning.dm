@@ -58,7 +58,7 @@
 	locked = 1
 
 	eject_wait = 1
-	addtimer(CALLBACK(src, .proc/end_wait), 3 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(end_wait)), 3 SECONDS)
 
 	var/mob/living/carbon/human/H = new /mob/living/carbon/human(src, R.dna.species)
 	occupant = H

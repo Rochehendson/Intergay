@@ -164,21 +164,21 @@
 	if((can_clone && config.allow_ic_printing) || debug)
 		HTML += "Here you can load script for your assembly.<br>"
 		if(!cloning)
-			HTML += " <A href='?src=\ref[src];print=load'>{Load Program}</a> "
+			HTML += " <a href='byond://?src=\ref[src];print=load'>{Load Program}</a> "
 		else
 			HTML += " {Load Program}"
 		if(!program)
 			HTML += " {[fast_clone ? "Print" : "Begin Printing"] Assembly}"
 		else if(cloning)
-			HTML += " <A href='?src=\ref[src];print=cancel'>{Cancel Print}</a>"
+			HTML += " <a href='byond://?src=\ref[src];print=cancel'>{Cancel Print}</a>"
 		else
-			HTML += " <A href='?src=\ref[src];print=print'>{[fast_clone ? "Print" : "Begin Printing"] Assembly}</a>"
+			HTML += " <a href='byond://?src=\ref[src];print=print'>{[fast_clone ? "Print" : "Begin Printing"] Assembly}</a>"
 
 		HTML += "<br><hr>"
 	HTML += "Categories:"
 	for(var/category in SScircuit.circuit_fabricator_recipe_list)
 		if(category != current_category)
-			HTML += " <a href='?src=\ref[src];category=[category]'>\[[category]\]</a> "
+			HTML += " <a href='byond://?src=\ref[src];category=[category]'>\[[category]\]</a> "
 		else // Bold the button if it's already selected.
 			HTML += " <b>\[[category]\]</b> "
 	HTML += "<hr>"
@@ -193,7 +193,7 @@
 			if((initial(IC.spawn_flags) & IC_SPAWN_RESEARCH) && (!(initial(IC.spawn_flags) & IC_SPAWN_DEFAULT)) && !upgraded)
 				can_build = FALSE
 		if(can_build)
-			HTML += "<A href='?src=\ref[src];build=\ref[path]'>\[[initial(O.name)]\]</A>: [initial(O.desc)]<br>"
+			HTML += "<a href='byond://?src=\ref[src];build=\ref[path]'>\[[initial(O.name)]\]</A>: [initial(O.desc)]<br>"
 		else
 			HTML += "<s>\[[initial(O.name)]\]</s>: [initial(O.desc)]<br>"
 
@@ -305,7 +305,7 @@
 					to_chat(usr, "<span class='notice'>You begin printing a custom assembly. This will take approximately [round(cloning_time/10)] seconds. You can still print \
 					off normal parts during this time.</span>")
 					playsound(src, 'sound/items/poster_being_created.ogg', 50, TRUE)
-					addtimer(CALLBACK(src, .proc/print_program, usr), cloning_time)
+					addtimer(CALLBACK(src, PROC_REF(print_program), usr), cloning_time)
 
 			if("cancel")
 				if(!cloning || !program)

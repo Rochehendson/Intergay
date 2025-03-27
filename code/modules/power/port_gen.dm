@@ -98,7 +98,7 @@
 
 	if(duration)
 		stat |= EMPED
-		addtimer(CALLBACK(src, .proc/resolve_emp_timer), duration)
+		addtimer(CALLBACK(src, PROC_REF(resolve_emp_timer)), duration)
 
 /obj/machinery/power/port_gen/proc/resolve_emp_timer()
 	stat &= ~EMPED
@@ -376,18 +376,18 @@
 
 	var/dat = text("<b>[name]</b><br>")
 	if (active)
-		dat += text("Generator: <A href='?src=\ref[src];action=disable'>On</A><br>")
+		dat += text("Generator: <a href='byond://?src=\ref[src];action=disable'>On</A><br>")
 	else
-		dat += text("Generator: <A href='?src=\ref[src];action=enable'>Off</A><br>")
-	dat += text("[capitalize(sheet_name)]: [sheets] - <A href='?src=\ref[src];action=eject'>Eject</A><br>")
+		dat += text("Generator: <a href='byond://?src=\ref[src];action=enable'>Off</A><br>")
+	dat += text("[capitalize(sheet_name)]: [sheets] - <a href='byond://?src=\ref[src];action=eject'>Eject</A><br>")
 	var/stack_percent = round(sheet_left * 100, 1)
 	dat += text("Current stack: [stack_percent]% <br>")
-	dat += text("Power output: <A href='?src=\ref[src];action=lower_power'>-</A> [power_gen * power_output] Watts<A href='?src=\ref[src];action=higher_power'>+</A><br>")
+	dat += text("Power output: <a href='byond://?src=\ref[src];action=lower_power'>-</A> [power_gen * power_output] Watts<a href='byond://?src=\ref[src];action=higher_power'>+</A><br>")
 	dat += text("Power current: [(powernet == null ? "Unconnected" : "[avail()]")]<br>")
 
 	var/tempstr = "Temperature: [temperature]&deg;C<br>"
 	dat += (overheating)? "<span class='danger'>[tempstr]</span>" : tempstr
-	dat += "<br><A href='?src=\ref[src];action=close'>Close</A>"
+	dat += "<br><a href='byond://?src=\ref[src];action=close'>Close</A>"
 	show_browser(user, "[dat]", "window=port_gen")
 	onclose(user, "port_gen")
 */

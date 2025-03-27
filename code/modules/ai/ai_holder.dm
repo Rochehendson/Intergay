@@ -108,7 +108,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 	holder = new_holder
 	home_turf = get_turf(holder)
 	manage_processing(AI_PROCESSING)
-	GLOB.stat_set_event.register(holder, src, .proc/holder_stat_change)
+	GLOB.stat_set_event.register(holder, src, PROC_REF(holder_stat_change))
 	..()
 
 /datum/ai_holder/Destroy()
@@ -141,7 +141,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 /// Set the AI as 'busy' for a specific length of time.
 /datum/ai_holder/proc/set_busy_delay(time)
 	set_busy(TRUE)
-	addtimer(CALLBACK(src, .proc/set_busy, FALSE), time)
+	addtimer(CALLBACK(src, PROC_REF(set_busy), FALSE), time)
 
 /**
  * Makes this ai holder not get processed.

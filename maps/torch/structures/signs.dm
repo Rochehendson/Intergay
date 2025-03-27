@@ -27,7 +27,7 @@
 
 /obj/structure/sign/ecplaque/examine(mob/user)
 	. = ..()
-	to_chat(user, "The founding principles of the SC are written there: <A href='?src=\ref[src];show_info=1'>Surveyor Directives</A>")
+	to_chat(user, "The founding principles of the SC are written there: <a href='byond://?src=\ref[src];show_info=1'>Surveyor Directives</A>")
 
 /obj/structure/sign/ecplaque/CanUseTopic()
 	return STATUS_INTERACTIVE

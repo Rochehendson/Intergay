@@ -27,7 +27,7 @@
 		product.reagents.add_reagent(/datum/reagent/blood,30,data)
 
 		virusing = 1
-		addtimer(CALLBACK(src, .proc/resetCloningTimer), 1 MINUTE)
+		addtimer(CALLBACK(src, PROC_REF(resetCloningTimer)), 1 MINUTE)
 
 		state("The [src.name] Buzzes", "blue")
 		return
@@ -54,10 +54,10 @@
 		if(B)
 			dat = "Blood sample inserted."
 			dat += "<BR>Antibodies: [antigens2string(B.data["antibodies"])]"
-			dat += "<BR><A href='?src=\ref[src];antibody=1'>Begin antibody production</a>"
+			dat += "<BR><a href='byond://?src=\ref[src];antibody=1'>Begin antibody production</a>"
 		else
 			dat += "<BR>Please check container contents."
-		dat += "<BR><A href='?src=\ref[src];eject=1'>Eject container</a>"
+		dat += "<BR><a href='byond://?src=\ref[src];eject=1'>Eject container</a>"
 	else
 		dat = "Please insert a container."
 

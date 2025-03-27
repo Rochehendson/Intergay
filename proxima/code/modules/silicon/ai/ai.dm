@@ -6,7 +6,7 @@
 
 /mob/living/silicon/ai/on_mob_init()
 	. = ..()
-	INVOKE_ASYNC(src, .proc/AnnouncePresence)
+	INVOKE_ASYNC(src, PROC_REF(AnnouncePresence))
 
 /mob/living/silicon/ai/proc/AnnouncePresence()
 	if(alert(src, "Do you want to announce your activation?", "Activation Announce", "Yes", "No") == "Yes")

@@ -51,11 +51,11 @@
 	if (active)
 		return
 	if (user)
-		msg_admin_attack("[user.name] ([user.ckey]) primed \a [src] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[user.x];Y=[user.y];Z=[user.z]'>JMP</a>)")
+		msg_admin_attack("[user.name] ([user.ckey]) primed \a [src] (<a href='byond://?_src_=holder;adminplayerobservecoodjump=1;X=[user.x];Y=[user.y];Z=[user.z]'>JMP</a>)")
 	icon_state = initial(icon_state) + "_active"
 	active = TRUE
 	playsound(loc, arm_sound, 75, 0, -3)
-	addtimer(CALLBACK(src, .proc/detonate, user), det_time)
+	addtimer(CALLBACK(src, PROC_REF(detonate), user), det_time)
 
 
 /obj/item/grenade/proc/detonate(mob/living/user)

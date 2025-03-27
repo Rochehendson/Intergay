@@ -28,7 +28,7 @@
 /obj/item/reagent_containers/food/snacks/dehydrated_carp/on_reagent_change()
 	if (reagents.has_reagent(/datum/reagent/water))
 		visible_message(SPAN_WARNING("\The [src] begins to shake as the liquid touches it."))
-		addtimer(CALLBACK(src, .proc/expand), 5 SECONDS)
+		addtimer(CALLBACK(src, PROC_REF(expand)), 5 SECONDS)
 
 /obj/item/reagent_containers/food/snacks/dehydrated_carp/proc/expand()
 	visible_message(SPAN_WARNING("\The [src] rapidly expands into a living space carp!"))
@@ -72,7 +72,7 @@
 	if (!phrase)
 		return
 	if (findtext(sanitize_phrase(msg), phrase))
-		addtimer(CALLBACK(src, .proc/activate), 5 SECONDS)
+		addtimer(CALLBACK(src, PROC_REF(activate)), 5 SECONDS)
 		visible_message(SPAN_DANGER("\The [src] begins to beep ominously!"))
 		playsound(loc, 'sound/weapons/armbomb.ogg', 75, 1, -3)
 

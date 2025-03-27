@@ -77,7 +77,7 @@
 		if (istype(E, /datum/stack_recipe_list))
 			t1+="<br>"
 			var/datum/stack_recipe_list/srl = E
-			t1 += "\[Sub-menu] <a href='?src=\ref[src];sublist=[i]'>[srl.title]</a>"
+			t1 += "\[Sub-menu] <a href='byond://?src=\ref[src];sublist=[i]'>[srl.title]</a>"
 
 		if (istype(E, /datum/stack_recipe))
 			var/datum/stack_recipe/R = E
@@ -96,7 +96,7 @@
 				var/decl/hierarchy/skill/S = decls_repository.get_decl(SKILL_CONSTRUCTION)
 				skill_label = "<font color='red'>\[[S.levels[R.difficulty]]]</font>"
 			if (can_build)
-				t1 +="[skill_label]<A href='?src=\ref[src];sublist=[recipes_sublist];make=[i];multiplier=1'>[title]</A>"
+				t1 +="[skill_label]<a href='byond://?src=\ref[src];sublist=[recipes_sublist];make=[i];multiplier=1'>[title]</A>"
 			else
 				t1 += "[skill_label][title]"
 			if (R.max_res_amount>1 && max_multiplier>1)
@@ -105,9 +105,9 @@
 				var/list/multipliers = list(5,10,25)
 				for (var/n in multipliers)
 					if (max_multiplier>=n)
-						t1 += " <A href='?src=\ref[src];make=[i];multiplier=[n]'>[n*R.res_amount]x</A>"
+						t1 += " <a href='byond://?src=\ref[src];make=[i];multiplier=[n]'>[n*R.res_amount]x</A>"
 				if (!(max_multiplier in multipliers))
-					t1 += " <A href='?src=\ref[src];make=[i];multiplier=[max_multiplier]'>[max_multiplier*R.res_amount]x</A>"
+					t1 += " <a href='byond://?src=\ref[src];make=[i];multiplier=[max_multiplier]'>[max_multiplier*R.res_amount]x</A>"
 
 	t1 += "</TT></body></HTML>"
 	show_browser(user, JOINTEXT(t1), "window=stack")

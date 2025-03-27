@@ -72,7 +72,7 @@
 	grinding = TRUE
 	update_icon()
 
-	addtimer(CALLBACK(src, .proc/reset_machine, user), grind_time)
+	addtimer(CALLBACK(src, PROC_REF(reset_machine), user), grind_time)
 	var/skill_multiplier = CLAMP01(0.5 + (user.get_skill_value(skill) - 1) * 0.167)
 	for (var/obj/item/I in items)
 		if (container.reagents.total_volume >= container.reagents.maximum_volume)
@@ -194,7 +194,7 @@
 		if (!items.len)
 			window += " (empty)"
 		else
-			window += "<br><a href='?src=\ref[src];action=grind'>(grind)</a> <a href='?src=\ref[src];action=eject'>(eject)</a><br>"
+			window += "<br><a href='byond://?src=\ref[src];action=grind'>(grind)</a> <a href='byond://?src=\ref[src];action=eject'>(eject)</a><br>"
 			for (var/obj/item/I in items)
 				window += "<br>\An [I]"
 				if (isstack(I))
@@ -205,7 +205,7 @@
 			window += " (not attached)"
 		else
 			window += " (\an [container], [Percent(container.reagents.total_volume, container.reagents.maximum_volume, 1)]% full)"
-			window += "<br><a href='?src=\ref[src];action=detach'>(detach)</a><br>"
+			window += "<br><a href='byond://?src=\ref[src];action=detach'>(detach)</a><br>"
 			for (var/datum/reagent/R in container.reagents.reagent_list)
 				window += "<br>[R.volume] - [R.name]"
 

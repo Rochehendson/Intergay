@@ -37,7 +37,7 @@
 		var/phrase_3 = pick("Name it Fiolet Danger", "Danger of rebuilding vox Empire", "Status of Mirania", "Last tajaras", "Strange fleet Ellipse", "Not repeat the era of Silence", "New warlord", "Recover of the Patriots", "Strange signals from deep space")
 		visible_message(SPAN_NOTICE("Noise-covered voices come from the [src]: '[phrase_1]... [phrase_2]... [phrase_3]'"))
 	if(on)
-		addtimer(CALLBACK(src, .proc/playnoise), 5 SECONDS)
+		addtimer(CALLBACK(src, PROC_REF(playnoise)), 5 SECONDS)
 
 /obj/machinery/noisetv/proc/endnoise()
 	on = !on
@@ -45,7 +45,7 @@
 		audible_message(SPAN_WARNING("[src] makes a terrible noise! You don't think it will go away until the broadcast is over."))
 		update_icon()
 		set_light(1, 1, 1, l_color = "#cdcbd6")
-		addtimer(CALLBACK(src, .proc/endnoise), 2 MINUTES)
+		addtimer(CALLBACK(src, PROC_REF(endnoise)), 2 MINUTES)
 		playnoise()
 	else
 		audible_message(SPAN_WARNING("Everything went quiet."))
