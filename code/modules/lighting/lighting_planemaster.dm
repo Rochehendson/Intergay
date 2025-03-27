@@ -8,6 +8,7 @@
 	color = "#ffffff"
 
 	blend_mode = BLEND_MULTIPLY
+	mouse_opacity = 0
 
 /obj/lighting_general/Initialize()
 	. = ..()
