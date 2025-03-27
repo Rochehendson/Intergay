@@ -43,6 +43,14 @@
 	glass = -1
 	paintable = 0
 
+/obj/structure/door_assembly/door_assembly_doormaint
+	icon = 'icons/obj/doors/doormaint/doormaint.dmi'
+	fill_icon = null
+	base_name = "Maintance airlock"
+	airlock_type = /obj/machinery/door/airlock/doormaint
+	glass = -1
+	paintable = 0
+
 /obj/structure/door_assembly/door_assembly_ext
 	icon = 'icons/obj/doors/external/door.dmi'
 	fill_icon = 'icons/obj/doors/external/fill_steel.dmi'

@@ -1,4 +1,4 @@
-GLOBAL_VAR_INIT(film_grain_stat, FALSE)
+GLOBAL_VAR_INIT(film_grain_stat, TRUE)
 
 /mob/living/carbon/human
 	var/obj/screen/film_grain

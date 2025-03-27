@@ -53,6 +53,11 @@
 		if(stored_material[material] < round(recipe.resources[material] * mat_efficiency) * multiplier)
 			return
 
+	// Limit queue
+	if(LAZYLEN(queued_orders) >= 2)
+		audible_message("\The [src] says: Want more space in queue? Buy DLC today!", FALSE, 4)
+		return
+
 	// Generate and track a new order.
 	var/datum/fabricator_build_order/order = new
 	order.remaining_time = recipe.build_time

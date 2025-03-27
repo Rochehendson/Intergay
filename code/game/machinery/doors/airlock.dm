@@ -381,6 +381,24 @@
 /obj/machinery/door/airlock/vault/bolted
 	locked = 1
 
+/obj/machinery/door/airlock/doormaint
+	airlock_type = "doormaint"
+	name = "Maintance airlock"
+	icon = 'icons/obj/doors/doormaint/doormaint.dmi'
+	fill_file = null
+	stripe_file = null
+	stripe_fill_file = null
+	bolts_file = 'icons/obj/doors/doormaint/lights_bolts.dmi'
+	deny_file = 'icons/obj/doors/doormaint/lights_deny.dmi'
+	lights_file = null
+	panel_file = 'icons/obj/doors/doormaint/panel.dmi'
+	welded_file = 'icons/obj/doors/doormaint/welded.dmi'
+	emag_file = null
+	explosion_resistance = 20
+	opacity = 0
+	assembly_type = /obj/structure/door_assembly/door_assembly_doormaint
+	paintable = 0
+
 /obj/machinery/door/airlock/Process()
 	if(main_power_lost_until > 0 && world.time >= main_power_lost_until)
 		regainMainPower()
@@ -662,7 +680,7 @@ About the new airlock wires panel:
 			filling_overlay = airlock_icon_cache["[ikey]"]
 			if (!filling_overlay)
 				filling_overlay = new(glass_file)
-				filling_overlay.Blend(window_color, ICON_MULTIPLY)
+				//filling_overlay.Blend(window_color, ICON_MULTIPLY)
 				airlock_icon_cache["[ikey]"] = filling_overlay
 		else
 			filling_overlay = glass_file
