@@ -80,7 +80,7 @@
 			var/mob/living/carbon/human/H = user
 			H.update_inv_wear_suit(TRUE)
 
-	addtimer(CALLBACK(src, /atom/movable/.proc/update_icon), 1 SECOND, TIMER_NO_HASH_WAIT | TIMER_OVERRIDE | TIMER_UNIQUE)
+	addtimer(CALLBACK(src, TYPE_PROC_REF(/atom/movable, update_icon)), 1 SECOND, TIMER_NO_HASH_WAIT | TIMER_OVERRIDE | TIMER_UNIQUE)
 
 /obj/item/clothing/suit/armor/shieldarmor/proc/update_hud(mob/user)
 	if(!ishuman(user))

@@ -137,7 +137,7 @@
 		if(watching_mob.client)
 			animate(holomap_datum.station_map, alpha = 0, time = 5, easing = LINEAR_EASING)
 			var/mob/M = watching_mob
-			addtimer(CALLBACK(src, .proc/clear_image, M, holomap_datum.station_map), 5, TIMER_CLIENT_TIME)//we give it time to fade out
+			addtimer(CALLBACK(src, PROC_REF(clear_image), M, holomap_datum.station_map), 5, TIMER_CLIENT_TIME)//we give it time to fade out
 		GLOB.moved_event.unregister(watching_mob, src)
 		GLOB.destroyed_event.unregister(watching_mob, src)
 	watching_mob = null
@@ -239,7 +239,7 @@
 	. = ..()
 	src.color = color
 	saved_color = color
-	maptext = "<A href='?src=\ref[src]' style='color: #ffffff'>[HOLOMAP_LEGEND_STYLING(text)]</A>"
+	maptext = "<a href='byond://?src=\ref[src]' style='color: #ffffff'>[HOLOMAP_LEGEND_STYLING(text)]</A>"
 	alpha = 254
 
 /obj/screen/legend/Click(location, control, params)

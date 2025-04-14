@@ -236,7 +236,7 @@
 		var/resolved = wrapped.resolve_attackby(target,user,params)
 
 		//If resolve_attackby forces waiting before taking wrapped, we need to let it finish before doing the rest.
-		addtimer(CALLBACK(src, .proc/finish_using, target, user, params, force_holder, resolved), 0)
+		addtimer(CALLBACK(src, PROC_REF(finish_using), target, user, params, force_holder, resolved), 0)
 
 	else if(istype(target,/obj/item)) //Check that we're not pocketing a mob.
 		var/obj/item/I = target
@@ -463,11 +463,11 @@
 		if (!O)
 			window += "<br><b>Depleted Resource</b>"
 		else
-			window += "<br>[O]: [activated(O) ? "<b>Activated</b>" : "<a href='?src=\ref[src];act=\ref[O]'>Activate</a>"]"
+			window += "<br>[O]: [activated(O) ? "<b>Activated</b>" : "<a href='byond://?src=\ref[src];act=\ref[O]'>Activate</a>"]"
 	if (emagged)
 		if (!module.emag)
 			window += "<br><b>Depleted Resource</b>"
 		else
-			window += "<br>[module.emag]: [activated(module.emag) ? "<b>Activated</b>" : "<a href='?src=\ref[src];act=\ref[module.emag]'>Activate</a>"]"
+			window += "<br>[module.emag]: [activated(module.emag) ? "<b>Activated</b>" : "<a href='byond://?src=\ref[src];act=\ref[module.emag]'>Activate</a>"]"
 	window = strip_improper("<head><title>Drone modules</title></head><tt>[JOINTEXT(window)]</tt>")
 	show_browser(src, window, "window=robotmod")

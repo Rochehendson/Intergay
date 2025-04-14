@@ -11,7 +11,7 @@
 
 		if(W.loc != target)
 			#ifndef UNIT_TEST
-			addtimer(CALLBACK(W, /atom/movable/.proc/do_putdown_animation, target, src), 0)
+			addtimer(CALLBACK(W, TYPE_PROC_REF(/atom/movable,do_putdown_animation), target, src, 0))
 			#endif
 			W.forceMove(target, drop_flag)
 		update_icons()

@@ -136,7 +136,7 @@
 			record = new /datum/overmap_contact(src, event, TRUE)
 		var/time_delay = max((SENSOR_TIME_DELAY * get_dist(linked, event)),1)
 		if(!record.pinged)
-			addtimer(CALLBACK(record, .proc/ping), time_delay)
+			addtimer(CALLBACK(record, PROC_REF(ping)), time_delay)
 
 
 	//Update our own marker icon.

@@ -67,6 +67,7 @@
 #include "code\__defines\mobs.dm"
 #include "code\__defines\movement.dm"
 #include "code\__defines\overmap.dm"
+#include "code\__defines\proc.dm"
 #include "code\__defines\proc_presets.dm"
 #include "code\__defines\psi.dm"
 #include "code\__defines\qdel.dm"

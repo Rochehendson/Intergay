@@ -91,7 +91,7 @@ var/list/phonetic_alphabet_suffix = list("ALPHA", "BETA", "GAMMA", "DELTA", "EPS
 			var/matrix/M = matrix()
 			M.Scale(range*2.6)
 			animate(radar, transform = M, alpha = 0, time = (0.25 SECONDS*range), 1, SINE_EASING)
-			addtimer(CALLBACK(src, .proc/reset_radar, radar), (0.25 SECONDS *range+0.1))
+			addtimer(CALLBACK(src, PROC_REF(reset_radar), radar), (0.25 SECONDS *range+0.1))
 			QDEL_IN(radar, (0.25 SECONDS *range+0.3))
 
 /datum/overmap_contact/proc/reset_radar(var/image/radar)
@@ -115,7 +115,7 @@ var/list/phonetic_alphabet_suffix = list("ALPHA", "BETA", "GAMMA", "DELTA", "EPS
 	pinged = TRUE
 	show()
 	animate(marker, alpha=255, 0.5 SECOND, 1, LINEAR_EASING)
-	addtimer(CALLBACK(src, .proc/unping), 1 SECOND)
+	addtimer(CALLBACK(src, PROC_REF(unping)), 1 SECOND)
 
 
 /datum/overmap_contact/proc/unping()

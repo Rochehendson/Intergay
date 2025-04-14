@@ -17,13 +17,13 @@
 	var/obj/effect/temporary/A = new(get_turf(target), 24.5, animation_icon, back_animation)
 	target.dir = 2
 	target.forceMove(A)
-	addtimer(CALLBACK(src, .proc/teleport_effect, target), 23)
+	addtimer(CALLBACK(src, PROC_REF(teleport_effect), target), 23)
 
 /obj/item/device/syndietele/proc/teleport_effect(mob/target)
 	target.forceMove(src)
 	target.dir = 2
 	new /obj/effect/temporary(get_turf(src), 26.5, animation_icon, onhub_animation)
-	addtimer(CALLBACK(src, .proc/teleport_move, target), 24)
+	addtimer(CALLBACK(src, PROC_REF(teleport_move), target), 24)
 
 /obj/item/device/syndietele/proc/teleport_move(mob/target)
 	target.forceMove(loc)

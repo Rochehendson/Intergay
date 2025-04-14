@@ -19,8 +19,8 @@
 	Any amount of "Mind-Breaker"(TM) present in bloodstream will trigger this side-effect.<BR>"}
 	. += "<HR><B>Instructions:</B><BR>"
 	for(var/i = 1 to instructions.len)
-		. += "- [instructions[i]] <A href='byond://?src=\ref[src];edit=[i]'>Edit</A> <A href='byond://?src=\ref[src];del=[i]'>Remove</A><br>"
-	. += "<A href='byond://?src=\ref[src];add=1'>Add</A>"
+		. += "- [instructions[i]] <a href='byond://?src=\ref[src];edit=[i]'>Edit</A> <a href='byond://?src=\ref[src];del=[i]'>Remove</A><br>"
+	. += "<a href='byond://?src=\ref[src];add=1'>Add</A>"
 
 /obj/item/implant/imprinting/Topic(href, href_list)
 	..()
@@ -51,7 +51,7 @@
 		M.StoreMemory(msg, /decl/memory_options/system)
 	if(brainwashing)
 		log_and_message_admins("was implanted with a brainwashing implant holding following laws: [jointext(instructions, ";")].", M)
-	addtimer(CALLBACK(src,.proc/activate),3000,(TIMER_UNIQUE|TIMER_OVERRIDE))
+	addtimer(CALLBACK(src,PROC_REF(activate)),3000,(TIMER_UNIQUE|TIMER_OVERRIDE))
 	return TRUE
 
 /obj/item/implant/imprinting/proc/get_instructions()
@@ -83,7 +83,7 @@
 	else
 		instruction = "<span class='notice'>You remember suddenly: \"[instruction]\"</span>"
 	to_chat(imp_in, instruction)
-	addtimer(CALLBACK(src,.proc/activate),3000,(TIMER_UNIQUE|TIMER_OVERRIDE))
+	addtimer(CALLBACK(src,PROC_REF(activate)),3000,(TIMER_UNIQUE|TIMER_OVERRIDE))
 
 /obj/item/implant/imprinting/removed()
 	if(brainwashing && !malfunction)

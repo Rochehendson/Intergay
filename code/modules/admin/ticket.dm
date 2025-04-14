@@ -16,7 +16,7 @@ var/global/list/ticket_panels = list()
 	tickets |= src
 	id = tickets.len
 	opened_time = world.time
-	addtimer(CALLBACK(src, .proc/timeoutcheck), 5 MINUTES)
+	addtimer(CALLBACK(src, PROC_REF(timeoutcheck)), 5 MINUTES)
 
 /datum/ticket/proc/timeoutcheck()
 	if(status == TICKET_OPEN)
@@ -157,7 +157,7 @@ var/global/list/ticket_panels = list()
 				var/ref_mob = ""
 				if(owner_client)
 					ref_mob = "\ref[owner_client.mob]"
-				ticket_dat += " - <A HREF='?_src_=holder;adminmoreinfo=[ref_mob]'>?</A> - <A HREF='?_src_=holder;adminplayeropts=[ref_mob]'>PP</A> - <A HREF='?_src_=vars;Vars=[ref_mob]'>VV</A> - <A HREF='?_src_=holder;narrateto=[ref_mob]'>DN</A>[owner_client ? "- [admin_jump_link(owner_client, src)]" : ""]"
+				ticket_dat += " - <a href='byond://?_src_=holder;adminmoreinfo=[ref_mob]'>?</A> - <a href='byond://?_src_=holder;adminplayeropts=[ref_mob]'>PP</A> - <a href='byond://?_src_=vars;Vars=[ref_mob]'>VV</A> - <a href='byond://?_src_=holder;narrateto=[ref_mob]'>DN</A>[owner_client ? "- [admin_jump_link(owner_client, src)]" : ""]"
 			if(open_ticket && open_ticket == ticket)
 				ticket_dat += "</i>"
 			ticket_dat += "</li>"

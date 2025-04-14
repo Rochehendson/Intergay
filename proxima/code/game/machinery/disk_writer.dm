@@ -74,10 +74,10 @@
 		dat = "Memory scan completed. <br>Writing the tune from scan of [customer.name] mind... Please, stand still."
 
 	if(disk && !writing)
-		dat = "<A href='?src=\ref[src];write=1'>Write</A>"
+		dat = "<a href='byond://?src=\ref[src];write=1'>Write</A>"
 
 	if(disk && !writing)
-		dat += "<br><a href='?src=\ref[src];eject=1'>Eject Disk</a>"
+		dat += "<br><a href='byond://?src=\ref[src];eject=1'>Eject Disk</a>"
 
 	if(cooldown)
 		dat = "[src] is recalibrating its systems for a new rewrite. Please, wait [cooldown] seconds."
@@ -95,7 +95,7 @@
 	if(href_list["write"])
 		if(!writing && !customer && disk && cooldown == 0)
 			if(write_disk(usr))
-				message_admins("[customer.real_name]([customer.ckey]) uploaded new sound in <a href='?_src_=holder;adminplayerobservefollow=\ref[src]'>the cassette</a> named as \"[disk.track.title]\".")
+				message_admins("[customer.real_name]([customer.ckey]) uploaded new sound in <a href='byond://?_src_=holder;adminplayerobservefollow=\ref[src]'>the cassette</a> named as \"[disk.track.title]\".")
 				cooldown += 2 SECONDS
 				sleep(4 SECONDS)
 

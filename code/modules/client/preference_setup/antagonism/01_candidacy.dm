@@ -43,20 +43,20 @@
 		if(jobban_isbanned(preference_mob(), antag.id) || (antag.id == MODE_MALFUNCTION && jobban_isbanned(preference_mob(), "AI")))
 			. += "<span class='danger'>\[BANNED\]</span><br>"
 		else if(antag.id in pref.be_special_role)
-			. += "<span class='linkOn'>High</span> <a href='?src=\ref[src];add_maybe=[antag.id]'>Low</a> <a href='?src=\ref[src];del_special=[antag.id]'>Never</a></br>"
+			. += "<span class='linkOn'>High</span> <a href='byond://?src=\ref[src];add_maybe=[antag.id]'>Low</a> <a href='byond://?src=\ref[src];del_special=[antag.id]'>Never</a></br>"
 		else if(antag.id in pref.may_be_special_role)
-			. += "<a href='?src=\ref[src];add_special=[antag.id]'>High</a> <span class='linkOn'>Low</span> <a href='?src=\ref[src];del_special=[antag.id]'>Never</a></br>"
+			. += "<a href='byond://?src=\ref[src];add_special=[antag.id]'>High</a> <span class='linkOn'>Low</span> <a href='byond://?src=\ref[src];del_special=[antag.id]'>Never</a></br>"
 		else
-			. += "<a href='?src=\ref[src];add_special=[antag.id]'>High</a> <a href='?src=\ref[src];add_maybe=[antag.id]'>Low</a> <span class='linkOn'>Never</span></br>"
+			. += "<a href='byond://?src=\ref[src];add_special=[antag.id]'>High</a> <a href='byond://?src=\ref[src];add_maybe=[antag.id]'>Low</a> <span class='linkOn'>Never</span></br>"
 
 		. += "</td></tr>"
 
 	// Special handling for pAI role
 	. += "<tr></tr><tr><td>pAI:</td>"
 	if (BE_PAI in pref.be_special_role)
-		. += "<td><span class='linkOn'>Yes</span> <a href='?src=\ref[src];del_special=[BE_PAI]'>No</a></br></td></tr>"
+		. += "<td><span class='linkOn'>Yes</span> <a href='byond://?src=\ref[src];del_special=[BE_PAI]'>No</a></br></td></tr>"
 	else
-		. += "<td><a href='?src=\ref[src];add_special=[BE_PAI]'>Yes</a> <span class='linkOn'>No</span></br></td></tr>"
+		. += "<td><a href='byond://?src=\ref[src];add_special=[BE_PAI]'>Yes</a> <span class='linkOn'>No</span></br></td></tr>"
 	for(var/antag_type in all_antag_types) //BoS
 		var/datum/antagonist/antag = all_antag_types[antag_type]
 		if(antag.id == MODE_MINI_ROLES)

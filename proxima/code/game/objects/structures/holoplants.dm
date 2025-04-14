@@ -142,7 +142,7 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 
 /obj/structure/holoplant/proc/doInterference()
 	if(!interference && enabled)
-		addtimer(CALLBACK(src, .proc/Interference), 0, TIMER_STOPPABLE)
+		addtimer(CALLBACK(src, PROC_REF(Interference)), 0, TIMER_STOPPABLE)
 
 /obj/structure/holoplant/Crossed(var/mob/living/L)
 	if(istype(L))

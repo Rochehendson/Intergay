@@ -59,7 +59,7 @@
 	visible_message(SPAN_WARNING("[user] activated [src]!"))
 	active = TRUE
 	if(user)
-		msg_admin_attack("[user.name] ([user.ckey]) primed \a [src] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[user.x];Y=[user.y];Z=[user.z]'>JMP</a>)")
+		msg_admin_attack("[user.name] ([user.ckey]) primed \a [src] (<a href='byond://?_src_=holder;adminplayerobservecoodjump=1;X=[user.x];Y=[user.y];Z=[user.z]'>JMP</a>)")
 	update_icon()
 
 /obj/item/mine/proc/detonate(var/mob/living/carbon/human/activator, cut_arms)

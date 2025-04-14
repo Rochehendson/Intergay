@@ -34,18 +34,18 @@
 	clear_mirror_ui_cache(ui_cache)
 	. = ..()
 /*	QDEL_NULL(reflection)
-	GLOB.moved_event.unregister(src, src, .proc/on_moved)
+	GLOB.moved_event.unregister(src, src, PROC_REF(on_moved))
 
 /obj/item/storage/mirror/Initialize()
 	. = ..()
 	reflection = new(loc)
 	reflection.setup_visuals(src)
-	GLOB.moved_event.register(src, src, .proc/on_moved)
+	GLOB.moved_event.register(src, src, PROC_REF(on_moved))
 
 /obj/item/storage/mirror/proc/on_flick() //Have to hide the effect
 	if(istype(reflection))
 		reflection.alpha = 0
-		addtimer(CALLBACK(reflection, /obj/effect/reflection/.proc/reset_alpha), 15, TIMER_CLIENT_TIME | TIMER_UNIQUE | TIMER_OVERRIDE)
+		addtimer(CALLBACK(reflection, /obj/effect/reflection/PROC_REF(reset_alpha)), 15, TIMER_CLIENT_TIME | TIMER_UNIQUE | TIMER_OVERRIDE)
 */
 /obj/item/storage/mirror/MouseDrop(obj/over)
 	. = ..()

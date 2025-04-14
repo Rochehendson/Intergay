@@ -183,7 +183,7 @@ SUBSYSTEM_DEF(ticker)
 			player.new_player_panel()
 
 		generate_contracts(min(6 + round(minds.len / 5), 12)) //BoS
-		addtimer(CALLBACK(src, .proc/contract_tick), 15 MINUTES)
+		addtimer(CALLBACK(src, PROC_REF(contract_tick)), 15 MINUTES)
 
 	if(!GLOB.admins.len)
 		send2adminirc("Round has started with no admins online.")
@@ -195,7 +195,7 @@ SUBSYSTEM_DEF(ticker)
 	if(mode_finished && game_finished())
 		Master.SetRunLevel(RUNLEVEL_POSTGAME)
 		end_game_state = END_GAME_READY_TO_END
-		INVOKE_ASYNC(src, .proc/declare_completion)
+		INVOKE_ASYNC(src, PROC_REF(declare_completion))
 		if(config.allow_map_switching && config.auto_map_vote && GLOB.all_maps.len > 1)
 			SSvote.initiate_vote(/datum/vote/map/end_game, automatic = 1)
 
@@ -419,7 +419,7 @@ Helpers
 
 /datum/controller/subsystem/ticker/proc/contract_tick() //Also BoS
 	generate_contracts(1)
-	addtimer(CALLBACK(src, .proc/contract_tick), 15 MINUTES)
+	addtimer(CALLBACK(src, PROC_REF(contract_tick)), 15 MINUTES)
 
 
 

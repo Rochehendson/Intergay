@@ -141,7 +141,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	. += "<br /><br /><b>Body</b> [BTN("random", "Randomize")]"
 	. += "<br />[TBTN("gender", gender2text(pref.gender), "Gender")]"
 	. += "<br />[TBTN("age", pref.age, "Age")]"
-	. += "<br />Floating Chat Color: <a href='?src=\ref[src];select_floating_chat_color=1'><b>[pref.floating_chat_color]</b></a>" //aurora
+	. += "<br />Floating Chat Color: <a href='byond://?src=\ref[src];select_floating_chat_color=1'><b>[pref.floating_chat_color]</b></a>" //aurora
 	. += "<br />[TBTN("blood_type", pref.b_type, "Blood Type")]"
 	. += "<br />[VTBTN("disabilities", NEARSIGHTED, pref.disabilities & NEARSIGHTED ? "Yes" : "No", "Glasses")]"
 
